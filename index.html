@@ -1,0 +1,1575 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Алексей Антонов Бусти — блогер, аналитик | Все выпуски на Boosty</title>
+<meta name="description" content="Алексей Антонов — блогер и аналитик. Все выпуски на Boosty: геополитика, инвестиции, экономика, политика. Смотреть бесплатно в Telegram. Антонов Бусти слив — эксклюзивный контент.">
+<meta name="keywords" content="алексей антонов, антонов бусти, алексей антонов бусти, алексей антонов бусти слив, алексей антонов блогер, бусты, antonov media">
+<meta property="og:title" content="Алексей Антонов Бусти — блогер, аналитик">
+<meta property="og:description" content="Все выпуски Алексея Антонова на Boosty. Геополитика, инвестиции, экономика, политика. Смотреть бесплатно в Telegram.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://alexey-antonov-boosty-official.github.io/">
+<meta property="og:site_name" content="Антонов Медиа">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Алексей Антонов Бусти — блогер, аналитик">
+<meta name="twitter:description" content="Все выпуски Алексея Антонова на Boosty. Смотреть бесплатно в Telegram.">
+<link rel="canonical" href="https://alexey-antonov-boosty-official.github.io/">
+<link rel="shortcut icon" href="https://cdn-ui.antonov.media/0.0.47-1/favicon/light/favicon.ico" sizes="32x32" media="(prefers-color-scheme: light)"/>
+<link rel="shortcut icon" href="https://cdn-ui.antonov.media/0.0.47-1/favicon/dark/favicon.ico" sizes="32x32" media="(prefers-color-scheme: dark)"/>
+<link rel="icon" type="image/svg+xml" href="https://cdn-ui.antonov.media/0.0.47-1/favicon/favicon.svg"/>
+<link rel="icon" type="image/png" href="https://cdn-ui.antonov.media/0.0.47-1/favicon/light/favicon-96x96.png" sizes="96x96" media="(prefers-color-scheme: light)"/>
+<link rel="icon" type="image/png" href="https://cdn-ui.antonov.media/0.0.47-1/favicon/dark/favicon-96x96.png" sizes="96x96" media="(prefers-color-scheme: dark)"/>
+<link rel="apple-touch-icon" sizes="180x180" href="https://cdn-ui.antonov.media/0.0.47-1/favicon/light/apple-touch-icon.png" media="(prefers-color-scheme: light)"/>
+<link rel="apple-touch-icon" sizes="180x180" href="https://cdn-ui.antonov.media/0.0.47-1/favicon/dark/apple-touch-icon.png" media="(prefers-color-scheme: dark)"/>
+<meta name="apple-mobile-web-app-title" content="Антонов Медиа"/>
+<link rel="manifest" href="https://cdn-ui.antonov.media/0.0.47-1/favicon/site.webmanifest"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","name":"Антонов Медиа","url":"https://alexey-antonov-boosty-official.github.io/","author":{"@type":"Person","name":"Алексей Антонов","url":"https://alexey-antonov-boosty-official.github.io/"}}
+</script>
+</head>
+<body>
+<div class="aurora-bg"></div>
+<div class="grid-overlay"></div>
+<canvas id="particles"></canvas>
+
+<header>
+  <div class="header-inner">
+    <a class="logo" href="index.html">
+      <div class="logo-mark">А</div>
+      <div>
+        <div class="logo-text">Антонов Медиа</div>
+        <div class="logo-sub">Boosty Official</div>
+      </div>
+    </a>
+    <a class="header-tg" href="https://t.me/antonovbusty" target="_blank" rel="noopener">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="#fff"><path d="M9.78 18.65l.28-4.23 7.68-6.92c.34-.31-.07-.46-.52-.19L7.74 13.3 3.64 12c-.88-.25-.89-.86.2-1.3l15.97-6.16c.73-.33 1.43.18 1.15 1.3l-2.72 12.81c-.19.91-.74 1.13-1.5.71L12.6 16.3l-1.99 1.93c-.23.23-.42.42-.83.42z"/></svg>
+      <span>Telegram</span>
+    </a>
+  </div>
+</header>
+
+<div class="promo-bar">
+  Эксклюзивный контент от Алексея Антонова. Полные выпуски — в <a href="https://t.me/antonovbusty" target="_blank" rel="noopener">Telegram-канале</a>
+</div>
+
+<main>
+  <div class="hero-section">
+    <h1>Алексей Антонов<br>Бусти</h1>
+    <p>Блогер, аналитик, автор канала на Boosty. 285 выпусков: геополитика, инвестиции, экономика, политика, культура. Смотреть бесплатно — в Telegram.</p>
+    <div class="cta-section">
+      <a class="cta-primary" href="https://t.me/antonovbusty" target="_blank" rel="noopener">Открыть Telegram-канал →</a>
+      <a class="cta-secondary" href="https://boosty.to/antonovtakoiantonov" target="_blank" rel="noopener">Boosty</a>
+    </div>
+  </div>
+
+  <div class="search-bar">
+    <input type="text" placeholder="Поиск по статьям..." id="searchInput" oninput="searchArticles()">
+  </div>
+
+  <div class="cat-filters">
+    <button class="cat-filter active" onclick="filterCat('all')">Все</button>
+    <button class="cat-filter" onclick="filterCat('Геополитика')">Геополитика</button>
+    <button class="cat-filter" onclick="filterCat('Инвестиции')">Инвестиции</button>
+    <button class="cat-filter" onclick="filterCat('Аналитика')">Аналитика</button>
+    <button class="cat-filter" onclick="filterCat('Политика')">Политика</button>
+    <button class="cat-filter" onclick="filterCat('Бизнес')">Бизнес</button>
+    <button class="cat-filter" onclick="filterCat('Экономика')">Экономика</button>
+    <button class="cat-filter" onclick="filterCat('Технологии')">Технологии</button>
+    <button class="cat-filter" onclick="filterCat('Культура')">Культура</button>
+    <button class="cat-filter" onclick="filterCat('Психология')">Психология</button>
+    <button class="cat-filter" onclick="filterCat('Религия')">Религия</button>
+    <button class="cat-filter" onclick="filterCat('Биография')">Биография</button>
+    <button class="cat-filter" onclick="filterCat('Здоровье')">Здоровье</button>
+
+  </div>
+
+  <div class="articles-grid" id="articlesGrid">
+    <a class="article-card" data-cat="Геополитика" href="articles/kto-glavnyy-v-rossiyskoy-armii.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Кто главный в российской армии?</h3>
+  <div class="card-desc">Кто главный в российской армии? — эксклюзивный выпуск Алексея Антонова на Boosty. Аналитика, разборы и мнения, недоступные на YouTube. Смотр...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Аналитика" href="articles/lofi-heroes-3-hot-seat-video-to-chill-out-with-aleksandr-ilin.html">
+  <div class="card-cat">Аналитика</div>
+  <h3>lofi heroes 3 hot seat video to chill out with Александр Ильин</h3>
+  <div class="card-desc">Алексей Антонов разбирёт тему «lofi heroes 3 hot seat video to chill out with Александр Ильин» на своём канале Boosty. Глубокий анализ, остр...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/kak-my-poteryali-ukrainu-metodichki-mi-6.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Как мы потеряли Украину: методички МИ-6</h3>
+  <div class="card-desc">«Как мы потеряли Украину: методички МИ-6» — выпуск блогаера Алексея Антонова. Подкаст доступен на Boosty, смотреть бесплатно можно в Telegra...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/ote-12-kontrnastup-ha-ha-vsu-v-samom-razgare.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>ОТЕ №12: контрнаступ (ха-ха) ВСУ в самом разгаре?</h3>
+  <div class="card-desc">Смотрите видео Алексея Антонова «ОТЕ №12: контрнаступ (ха-ха) ВСУ в самом разгаре?» на Boosty. Блогер Алексей Антонов делится аналитикой и и...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Экономика" href="articles/indeks-fondovogo-rynka.html">
+  <div class="card-cat">Экономика</div>
+  <h3>Индекс фондового рынка</h3>
+  <div class="card-desc">«Индекс фондового рынка» с Алексеем Антоновым на Boosty. Авторский разбор темы, интервью с экспертами и прямые выводы. Алексей Антонов Бусти...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/ote-11-u-ukrainy-bolshe-net-genprokurora-i-oleyny.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>ОТЕ №11: у Украины больше нет генпрокурора и Олейны</h3>
+  <div class="card-desc">Очередной выпуск от блогера Алексея Антонова: «ОТЕ №11: у Украины больше нет генпрокурора и Олейны». Эксклюзив на Boosty, смотреть бесплатно...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Аналитика" href="articles/lapsha-na-ushi-v-predvybornyh-programmah.html">
+  <div class="card-cat">Аналитика</div>
+  <h3>Лапша на уши в предвыборных программах</h3>
+  <div class="card-desc">Видео «Лапша на уши в предвыборных программах» от Алексея Антонова. Доступ к полному выпуску на Boosty, а смотреть бесплатно — в Telegram-ка...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/ote-10-ugrozy-zelenskogo-kiev-v-ogne-i-perestrelka-gur-vs-sbu.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>ОТЕ №10: угрозы Зеленского, Киев в огне и перестрелка ГУР vs СБУ</h3>
+  <div class="card-desc">Алексей Антонов представляет: «ОТЕ №10: угрозы Зеленского, Киев в огне и перестрелка ГУР vs СБУ». Boosty-эксклюзив с глубоким разбором темы....</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Психология" href="articles/srochnaya-psihologicheskaya-pomosch-dlya-grazhdan-s-krimsonom-i-asafevym.html">
+  <div class="card-cat">Психология</div>
+  <h3>Срочная психологическая помощь для граждан с Кримсоном и Асафьевым</h3>
+  <div class="card-desc">Срочная психологическая помощь для граждан с Кримсоном и Асафьевым — эксклюзивный выпуск Алексея Антонова на Boosty. Аналитика, разборы и мн...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Бизнес" href="articles/sovety-biznesu-po-vyzhivaniyu-v-2026-godu.html">
+  <div class="card-cat">Бизнес</div>
+  <h3>Советы бизнесу по выживанию в 2026 году</h3>
+  <div class="card-desc">Алексей Антонов разбирёт тему «Советы бизнесу по выживанию в 2026 году» на своём канале Boosty. Глубокий анализ, острые мнения и нестандартн...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/ote-9-ukraina-proigrala-v-gonke-dronov.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>ОТЕ №9: Украина проиграла в гонке дронов?</h3>
+  <div class="card-desc">«ОТЕ №9: Украина проиграла в гонке дронов?» — выпуск блогаера Алексея Антонова. Подкаст доступен на Boosty, смотреть бесплатно можно в Teleg...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Технологии" href="articles/geroi-mecha-i-magii-troyka-i-olden-era.html">
+  <div class="card-cat">Технологии</div>
+  <h3>Герои Меча и Магии: Тройка и Olden Era</h3>
+  <div class="card-desc">Смотрите видео Алексея Антонова «Герои Меча и Магии: Тройка и Olden Era» на Boosty. Блогер Алексей Антонов делится аналитикой и инсайдами. Б...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/ote-8-rossiya-naraschivaet-udarnuyu-mosch.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>ОТЕ №8: Россия наращивает ударную мощь</h3>
+  <div class="card-desc">«ОТЕ №8: Россия наращивает ударную мощь» с Алексеем Антоновым на Boosty. Авторский разбор темы, интервью с экспертами и прямые выводы. Алекс...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/esche-odin-den-v-rossii.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Еще один день в России</h3>
+  <div class="card-desc">Очередной выпуск от блогера Алексея Антонова: «Еще один день в России». Эксклюзив на Boosty, смотреть бесплатно в Telegram. Антонов Бусти сл...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/vybory-v-gosudarstvennuyu-dumu.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Выборы в Государственную Думу</h3>
+  <div class="card-desc">Видео «Выборы в Государственную Думу» от Алексея Антонова. Доступ к полному выпуску на Boosty, а смотреть бесплатно — в Telegram-канале. Але...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Культура" href="articles/eti-rofly-proshlogo-mihail-zadornov.html">
+  <div class="card-cat">Культура</div>
+  <h3>Эти рофлы прошлого: Михаил Задорнов</h3>
+  <div class="card-desc">Алексей Антонов представляет: «Эти рофлы прошлого: Михаил Задорнов». Boosty-эксклюзив с глубоким разбором темы. Зарбрать бонус и смотреть бе...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Аналитика" href="articles/degustiruem-pivo-s-grpzdc.html">
+  <div class="card-cat">Аналитика</div>
+  <h3>Дегустируем пиво с GRPZDC</h3>
+  <div class="card-desc">Дегустируем пиво с GRPZDC — эксклюзивный выпуск Алексея Антонова на Boosty. Аналитика, разборы и мнения, недоступные на YouTube. Смотрите ви...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/vyzhivet-li-rossiyskaya-ekonomika-na-zume-s-krimsonom.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Выживет ли российская экономика? На зуме с Кримсоном</h3>
+  <div class="card-desc">Алексей Антонов разбирёт тему «Выживет ли российская экономика? На зуме с Кримсоном» на своём канале Boosty. Глубокий анализ, острые мнения ...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Психология" href="articles/izmeny-pochemu-zachem-i-s-kem.html">
+  <div class="card-cat">Психология</div>
+  <h3>Измены: почему, зачем и с кем</h3>
+  <div class="card-desc">«Измены: почему, зачем и с кем» — выпуск блогаера Алексея Антонова. Подкаст доступен на Boosty, смотреть бесплатно можно в Telegram-канале. ...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/ote-7-zachem-zelenskiy-uvolil-glavkoma-i-atakoval-wb.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>ОТЕ №7: Зачем Зеленский уволил главкома и атаковал WB?</h3>
+  <div class="card-desc">Смотрите видео Алексея Антонова «ОТЕ №7: Зачем Зеленский уволил главкома и атаковал WB?» на Boosty. Блогер Алексей Антонов делится аналитико...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Инвестиции" href="articles/kak-investirovat-s-gorizontom-v-100-let-entoni-deden.html">
+  <div class="card-cat">Инвестиции</div>
+  <h3>Как инвестировать с горизонтом в 100 лет: Энтони Деден</h3>
+  <div class="card-desc">«Как инвестировать с горизонтом в 100 лет: Энтони Деден» с Алексеем Антоновым на Boosty. Авторский разбор темы, интервью с экспертами и прям...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/rossiya-gotovitsya-k-mobilizatsii.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Россия готовится к мобилизации</h3>
+  <div class="card-desc">Очередной выпуск от блогера Алексея Антонова: «Россия готовится к мобилизации». Эксклюзив на Boosty, смотреть бесплатно в Telegram. Антонов ...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Культура" href="articles/eti-rofly-proshlogo-petrosyan.html">
+  <div class="card-cat">Культура</div>
+  <h3>Эти рофлы прошлого: Петросян</h3>
+  <div class="card-desc">Видео «Эти рофлы прошлого: Петросян» от Алексея Антонова. Доступ к полному выпуску на Boosty, а смотреть бесплатно — в Telegram-канале. Алек...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Аналитика" href="articles/metaznanie-o-tom-kak-zhit-v-novom-mire.html">
+  <div class="card-cat">Аналитика</div>
+  <h3>Метазнание о том, как жить в новом мире</h3>
+  <div class="card-desc">Алексей Антонов представляет: «Метазнание о том, как жить в новом мире». Boosty-эксклюзив с глубоким разбором темы. Зарбрать бонус и смотрет...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/ote-6-rossiya-adaptiruetsya-a-na-ukraine-vozmozhny-vybory.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>ОТЕ №6: Россия адаптируется, а на Украине возможны выборы</h3>
+  <div class="card-desc">ОТЕ №6: Россия адаптируется, а на Украине возможны выборы — эксклюзивный выпуск Алексея Антонова на Boosty. Аналитика, разборы и мнения, нед...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/kogda-zhdat-okonchaniya-svo-razgovor-s-krimsonom.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Когда ждать окончания СВО? Разговор с Кримсоном</h3>
+  <div class="card-desc">Алексей Антонов разбирёт тему «Когда ждать окончания СВО? Разговор с Кримсоном» на своём канале Boosty. Глубокий анализ, острые мнения и нес...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/chto-takoe-nato-i-kogda-ono-napadet.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Что такое НАТО и когда оно нападёт?</h3>
+  <div class="card-desc">«Что такое НАТО и когда оно нападёт?» — выпуск блогаера Алексея Антонова. Подкаст доступен на Boosty, смотреть бесплатно можно в Telegram-ка...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Бизнес" href="articles/kak-zarabotat-vo-vremya-krizisa-tirlist-biznes-idey-ot-dizraptora.html">
+  <div class="card-cat">Бизнес</div>
+  <h3>Как заработать во время кризиса? Тирлист бизнес-идей от Дизраптора</h3>
+  <div class="card-desc">Смотрите видео Алексея Антонова «Как заработать во время кризиса? Тирлист бизнес-идей от Дизраптора» на Boosty. Блогер Алексей Антонов делит...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Технологии" href="articles/kak-lichnye-hakery-kim-chen-yna-ukrali-7-milliardov-dollarov.html">
+  <div class="card-cat">Технологии</div>
+  <h3>Как личные хакеры Ким Чен Ына украли 7 миллиардов долларов</h3>
+  <div class="card-desc">«Как личные хакеры Ким Чен Ына украли 7 миллиардов долларов» с Алексеем Антоновым на Boosty. Авторский разбор темы, интервью с экспертами и ...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/mobilizatsiya-v-penze-chto-proishodit.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Мобилизация в Пензе: что происходит?</h3>
+  <div class="card-desc">Очередной выпуск от блогера Алексея Антонова: «Мобилизация в Пензе: что происходит?». Эксклюзив на Boosty, смотреть бесплатно в Telegram. Ан...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/muzhik-ugrozhaet-putinu.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Мужик угрожает Путину</h3>
+  <div class="card-desc">Видео «Мужик угрожает Путину» от Алексея Антонова. Доступ к полному выпуску на Boosty, а смотреть бесплатно — в Telegram-канале. Алексей Ант...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/drony-pustye-zapravki-i-mobilizatsiya-v-rossii.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Дроны, пустые заправки и мобилизация в России</h3>
+  <div class="card-desc">Алексей Антонов представляет: «Дроны, пустые заправки и мобилизация в России». Boosty-эксклюзив с глубоким разбором темы. Зарбрать бонус и с...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Психология" href="articles/terapevticheskie-posidelki-na-dache-s-alekseem.html">
+  <div class="card-cat">Психология</div>
+  <h3>Терапевтические посиделки на даче с Алексеем</h3>
+  <div class="card-desc">Терапевтические посиделки на даче с Алексеем — эксклюзивный выпуск Алексея Антонова на Boosty. Аналитика, разборы и мнения, недоступные на Y...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Аналитика" href="articles/ote-5-kto-kogo-pobezhdaet.html">
+  <div class="card-cat">Аналитика</div>
+  <h3>ОТЕ №5: кто кого побеждает?</h3>
+  <div class="card-desc">Алексей Антонов разбирёт тему «ОТЕ №5: кто кого побеждает?» на своём канале Boosty. Глубокий анализ, острые мнения и нестандартный взгляд. П...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/zampred-gosdumy-babakov-gosplan-20-avtovaz-i-spasenie-ekonomiki-rossii.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Зампред Госдумы Бабаков: Госплан 2.0, АвтоВАЗ и спасение экономики России</h3>
+  <div class="card-desc">«Зампред Госдумы Бабаков: Госплан 2.0, АвтоВАЗ и спасение экономики России» — выпуск блогаера Алексея Антонова. Подкаст доступен на Boosty, ...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/kak-v-rossii-popast-vo-vlast-vse-rabochie-sposoby.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Как в России попасть во власть? Все рабочие способы</h3>
+  <div class="card-desc">Смотрите видео Алексея Антонова «Как в России попасть во власть? Все рабочие способы» на Boosty. Блогер Алексей Антонов делится аналитикой и...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/radi-etogo-ostrova-tramp-gotov-posratsya-s-nato.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Ради этого острова Трамп готов посраться с НАТО</h3>
+  <div class="card-desc">«Ради этого острова Трамп готов посраться с НАТО» с Алексеем Антоновым на Boosty. Авторский разбор темы, интервью с экспертами и прямые выво...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/gayd-po-effektivnoy-kommunikatsii-i-peregovoram.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Гайд по эффективной коммуникации и переговорам</h3>
+  <div class="card-desc">Очередной выпуск от блогера Алексея Антонова: «Гайд по эффективной коммуникации и переговорам». Эксклюзив на Boosty, смотреть бесплатно в Te...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Технологии" href="articles/cursor-ai-plus-obsidian-poshagovaya-instruktsiya-dlya-ne-tehnarey.html">
+  <div class="card-cat">Технологии</div>
+  <h3>Cursor AI + Obsidian: пошаговая инструкция для не-технарей</h3>
+  <div class="card-desc">Видео «Cursor AI + Obsidian: пошаговая инструкция для не-технарей» от Алексея Антонова. Доступ к полному выпуску на Boosty, а смотреть беспл...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Технологии" href="articles/kak-pravilno-dumat-pro-krasnye-tsifry-v-terminale.html">
+  <div class="card-cat">Технологии</div>
+  <h3>Как правильно думать про красные цифры в терминале</h3>
+  <div class="card-desc">Алексей Антонов представляет: «Как правильно думать про красные цифры в терминале». Boosty-эксклюзив с глубоким разбором темы. Зарбрать бону...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Аналитика" href="articles/vsegda-est-general-kotoryy-znaet-luchshe.html">
+  <div class="card-cat">Аналитика</div>
+  <h3>Всегда есть генерал, который знает лучше</h3>
+  <div class="card-desc">Всегда есть генерал, который знает лучше — эксклюзивный выпуск Алексея Антонова на Boosty. Аналитика, разборы и мнения, недоступные на YouTu...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Аналитика" href="articles/smotrim-lyubimyh-infotsygan-i-motiviruemsya.html">
+  <div class="card-cat">Аналитика</div>
+  <h3>Смотрим любимых инфоцыган и мотивируемся</h3>
+  <div class="card-desc">Алексей Антонов разбирёт тему «Смотрим любимых инфоцыган и мотивируемся» на своём канале Boosty. Глубокий анализ, острые мнения и нестандарт...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Экономика" href="articles/neft-tysyacha-i-odin-sposob-poteryat-dengi.html">
+  <div class="card-cat">Экономика</div>
+  <h3>Нефть: тысяча и один способ потерять деньги</h3>
+  <div class="card-desc">«Нефть: тысяча и один способ потерять деньги» — выпуск блогаера Алексея Антонова. Подкаст доступен на Boosty, смотреть бесплатно можно в Tel...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Культура" href="articles/obzor-na-kultovoe-anime-berserk.html">
+  <div class="card-cat">Культура</div>
+  <h3>Обзор на культовое аниме Берсерк</h3>
+  <div class="card-desc">Смотрите видео Алексея Антонова «Обзор на культовое аниме Берсерк» на Boosty. Блогер Алексей Антонов делится аналитикой и инсайдами. Бонусы ...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/kats-vtiraet-nam-kakuyu-to-dich-pro-perevorot.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Кац втирает нам какую-то дичь про переворот</h3>
+  <div class="card-desc">«Кац втирает нам какую-то дичь про переворот» с Алексеем Антоновым на Boosty. Авторский разбор темы, интервью с экспертами и прямые выводы. ...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Технологии" href="articles/kakim-budet-mir-pobedivshego-ii.html">
+  <div class="card-cat">Технологии</div>
+  <h3>Каким будет мир победившего ИИ?</h3>
+  <div class="card-desc">Очередной выпуск от блогера Алексея Антонова: «Каким будет мир победившего ИИ?». Эксклюзив на Boosty, смотреть бесплатно в Telegram. Антонов...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Биография" href="articles/s-chego-vse-nachalos-biografiya-permskiy-period.html">
+  <div class="card-cat">Биография</div>
+  <h3>С чего всё началось: биография, пермский период</h3>
+  <div class="card-desc">Видео «С чего всё началось: биография, пермский период» от Алексея Антонова. Доступ к полному выпуску на Boosty, а смотреть бесплатно — в Te...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Инвестиции" href="articles/rynki-dengi-i-lohi-kakie-tg-kanaly-manipulirovali-mosbirzhey.html">
+  <div class="card-cat">Инвестиции</div>
+  <h3>Рынки, деньги и лохи: какие тг-каналы манипулировали Мосбиржей</h3>
+  <div class="card-desc">Алексей Антонов представляет: «Рынки, деньги и лохи: какие тг-каналы манипулировали Мосбиржей». Boosty-эксклюзив с глубоким разбором темы. З...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/kak-povliyat-na-vlast-tirlist-ot-chinovnika.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Как повлиять на власть? Тирлист от чиновника</h3>
+  <div class="card-desc">Как повлиять на власть? Тирлист от чиновника — эксклюзивный выпуск Алексея Антонова на Boosty. Аналитика, разборы и мнения, недоступные на Y...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/rossiya-protiv-pehoty-i-dronov-chem-voyuet-ukraina.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Россия против пехоты и дронов: чем воюет Украина</h3>
+  <div class="card-desc">Алексей Антонов разбирёт тему «Россия против пехоты и дронов: чем воюет Украина» на своём канале Boosty. Глубокий анализ, острые мнения и не...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Технологии" href="articles/kto-stoit-za-demarshem-viktorii-boni.html">
+  <div class="card-cat">Технологии</div>
+  <h3>Кто стоит за демаршем Виктории Бони</h3>
+  <div class="card-desc">«Кто стоит за демаршем Виктории Бони» — выпуск блогаера Алексея Антонова. Подкаст доступен на Boosty, смотреть бесплатно можно в Telegram-ка...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Культура" href="articles/dante-aligeri-i-bozhestvennaya-komediya.html">
+  <div class="card-cat">Культура</div>
+  <h3>Данте Алигьери и Божественная комедия</h3>
+  <div class="card-desc">Смотрите видео Алексея Антонова «Данте Алигьери и Божественная комедия» на Boosty. Блогер Алексей Антонов делится аналитикой и инсайдами. Бо...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Аналитика" href="articles/opyat-vse-ploho-otvety-na-voprosy.html">
+  <div class="card-cat">Аналитика</div>
+  <h3>Опять всё плохо: ответы на вопросы</h3>
+  <div class="card-desc">«Опять всё плохо: ответы на вопросы» с Алексеем Антоновым на Boosty. Авторский разбор темы, интервью с экспертами и прямые выводы. Алексей А...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Аналитика" href="articles/ote-4-dvigaemsya-k-miru.html">
+  <div class="card-cat">Аналитика</div>
+  <h3>ОТЕ №4: Двигаемся к миру?</h3>
+  <div class="card-desc">Очередной выпуск от блогера Алексея Антонова: «ОТЕ №4: Двигаемся к миру?». Эксклюзив на Boosty, смотреть бесплатно в Telegram. Антонов Бусти...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/tramp-unichtozhit-iran.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Трамп УНИЧТОЖИТ Иран?</h3>
+  <div class="card-desc">Видео «Трамп УНИЧТОЖИТ Иран?» от Алексея Антонова. Доступ к полному выпуску на Boosty, а смотреть бесплатно — в Telegram-канале. Алексей Ант...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/ote-3-pochemu-u-irana-poluchitsya-to-chto-ne-poluchitsya-u-ukrainy.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>ОТЕ №3: Почему у Ирана получится то, что не получится у Украины</h3>
+  <div class="card-desc">Алексей Антонов представляет: «ОТЕ №3: Почему у Ирана получится то, что не получится у Украины». Boosty-эксклюзив с глубоким разбором темы. ...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/kripta-v-rossii-legalizatsiya-birzhi-i-obmenniki.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Крипта в России: легализация, биржи и обменники</h3>
+  <div class="card-desc">Крипта в России: легализация, биржи и обменники — эксклюзивный выпуск Алексея Антонова на Boosty. Аналитика, разборы и мнения, недоступные н...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Психология" href="articles/otnosheniya-v-2026-ponizhaem-standarty.html">
+  <div class="card-cat">Психология</div>
+  <h3>Отношения в 2026: понижаем стандарты?</h3>
+  <div class="card-desc">Алексей Антонов разбирёт тему «Отношения в 2026: понижаем стандарты?» на своём канале Boosty. Глубокий анализ, острые мнения и нестандартный...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/pochemu-v-rossii-zablokirovali-vse.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Почему в России заблокировали ВСЁ?</h3>
+  <div class="card-desc">«Почему в России заблокировали ВСЁ?» — выпуск блогаера Алексея Антонова. Подкаст доступен на Boosty, смотреть бесплатно можно в Telegram-кан...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/ote-2-tramp-protiv-irana-zelenskiy-protiv-zaluzhnogo-otklyuchenie-interneta-protiv-bespilotnikov.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>ОТЕ №2: Трамп против Ирана, Зеленский против Залужного, отключение интернета против беспилотников</h3>
+  <div class="card-desc">Смотрите видео Алексея Антонова «ОТЕ №2: Трамп против Ирана, Зеленский против Залужного, отключение интернета против беспилотников» на Boost...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/amerikanskie-patrioty-protiv-voyny-s-iranom.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Американские патриоты против войны с Ираном</h3>
+  <div class="card-desc">«Американские патриоты против войны с Ираном» с Алексеем Антоновым на Boosty. Авторский разбор темы, интервью с экспертами и прямые выводы. ...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Аналитика" href="articles/naskolko-silno-my-v-zhe.html">
+  <div class="card-cat">Аналитика</div>
+  <h3>Насколько сильно мы в ЖЕ?</h3>
+  <div class="card-desc">Очередной выпуск от блогера Алексея Антонова: «Насколько сильно мы в ЖЕ?». Эксклюзив на Boosty, смотреть бесплатно в Telegram. Антонов Бусти...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Технологии" href="articles/korrelyatsii-naskolko-gluboka-krolichya-nora.html">
+  <div class="card-cat">Технологии</div>
+  <h3>Корреляции: насколько глубока кроличья нора</h3>
+  <div class="card-desc">Видео «Корреляции: насколько глубока кроличья нора» от Алексея Антонова. Доступ к полному выпуску на Boosty, а смотреть бесплатно — в Telegr...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Аналитика" href="articles/otvechayu-na-aktualnye-voprosy.html">
+  <div class="card-cat">Аналитика</div>
+  <h3>Отвечаю на актуальные вопросы</h3>
+  <div class="card-desc">Алексей Антонов представляет: «Отвечаю на актуальные вопросы». Boosty-эксклюзив с глубоким разбором темы. Зарбрать бонус и смотреть бесплатн...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/ote-1-amerikanskiy-desant-ukrainskie-drony-i-kremlevskie-pulemetchiki.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>ОТЕ №1: Американский десант, украинские дроны и кремлёвские пулемётчики</h3>
+  <div class="card-desc">ОТЕ №1: Американский десант, украинские дроны и кремлёвские пулемётчики — эксклюзивный выпуск Алексея Антонова на Boosty. Аналитика, разборы...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/evreyskiy-zagovor-protiv-tsen-na-benzin-v-irane.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Еврейский заговор против цен на бензин в Иране</h3>
+  <div class="card-desc">Алексей Антонов разбирёт тему «Еврейский заговор против цен на бензин в Иране» на своём канале Boosty. Глубокий анализ, острые мнения и нест...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/koh-u-dudya-reyder-i-mahinator-iz-90-h-smotrim-s-lukoy-i-konevym.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Кох у Дудя: рейдер и махинатор из 90-х (смотрим с Лукой и Коневым)</h3>
+  <div class="card-desc">«Кох у Дудя: рейдер и махинатор из 90-х (смотрим с Лукой и Коневым)» — выпуск блогаера Алексея Антонова. Подкаст доступен на Boosty, смотрет...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/nado-li-spasat-kubinskih-bratushek-ot-ameriki.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Надо ли спасать кубинских братушек от Америки?</h3>
+  <div class="card-desc">Смотрите видео Алексея Антонова «Надо ли спасать кубинских братушек от Америки?» на Boosty. Блогер Алексей Антонов делится аналитикой и инса...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Технологии" href="articles/smotrim-shedevralnyy-margin-call-i-govorim-pro-obligatsii.html">
+  <div class="card-cat">Технологии</div>
+  <h3>Смотрим шедевральный Margin Call и говорим про облигации</h3>
+  <div class="card-desc">«Смотрим шедевральный Margin Call и говорим про облигации» с Алексеем Антоновым на Boosty. Авторский разбор темы, интервью с экспертами и пр...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/kak-dela-v-irane-obsuzhdayut-moschnye-eksperty.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Как дела в Иране: обсуждают мощные эксперты</h3>
+  <div class="card-desc">Очередной выпуск от блогера Алексея Антонова: «Как дела в Иране: обсуждают мощные эксперты». Эксклюзив на Boosty, смотреть бесплатно в Teleg...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Здоровье" href="articles/sberezhenie-zdorovya-i-dolgaya-schastlivaya-zhizn-s-romanom-terushkinym.html">
+  <div class="card-cat">Здоровье</div>
+  <h3>Сбережение здоровья и долгая счастливая жизнь с Романом Терушкиным</h3>
+  <div class="card-desc">Видео «Сбережение здоровья и долгая счастливая жизнь с Романом Терушкиным» от Алексея Антонова. Доступ к полному выпуску на Boosty, а смотре...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Религия" href="articles/satanisty-kannibaly-i-pedofily-obzor-na-mirovuyu-elitu.html">
+  <div class="card-cat">Религия</div>
+  <h3>Сатанисты, каннибалы и педофилы: обзор на мировую элиту</h3>
+  <div class="card-desc">Алексей Антонов представляет: «Сатанисты, каннибалы и педофилы: обзор на мировую элиту». Boosty-эксклюзив с глубоким разбором темы. Зарбрать...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/iran-vyzhivanie-izgoya.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Иран: выживание изгоя</h3>
+  <div class="card-desc">Иран: выживание изгоя — эксклюзивный выпуск Алексея Антонова на Boosty. Аналитика, разборы и мнения, недоступные на YouTube. Смотрите видео ...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Аналитика" href="articles/samyy-predvzyatyy-tirlist-avtobrendov-so-stasom-asafevym.html">
+  <div class="card-cat">Аналитика</div>
+  <h3>Самый предвзятый тирлист автобрендов со Стасом Асафьевым</h3>
+  <div class="card-desc">Алексей Антонов разбирёт тему «Самый предвзятый тирлист автобрендов со Стасом Асафьевым» на своём канале Boosty. Глубокий анализ, острые мне...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Аналитика" href="articles/chechenskie-voyny-s-evgeniem-norinym.html">
+  <div class="card-cat">Аналитика</div>
+  <h3>Чеченские войны с Евгением Нориным</h3>
+  <div class="card-desc">«Чеченские войны с Евгением Нориным» — выпуск блогаера Алексея Антонова. Подкаст доступен на Boosty, смотреть бесплатно можно в Telegram-кан...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Аналитика" href="articles/maykl-naki-chitaet-voenblogerov-i-boitsya-mira.html">
+  <div class="card-cat">Аналитика</div>
+  <h3>Майкл Наки читает военблогеров и боится мира</h3>
+  <div class="card-desc">Смотрите видео Алексея Антонова «Майкл Наки читает военблогеров и боится мира» на Boosty. Блогер Алексей Антонов делится аналитикой и инсайд...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Экономика" href="articles/shok-deputat-razbil-litso-grazhdaninu-intervyu-s-georgiem-shinkarenko.html">
+  <div class="card-cat">Экономика</div>
+  <h3>ШОК: Депутат разбил лицо гражданину! Интервью с Георгием Шинкаренко</h3>
+  <div class="card-desc">«ШОК: Депутат разбил лицо гражданину! Интервью с Георгием Шинкаренко» с Алексеем Антоновым на Boosty. Авторский разбор темы, интервью с эксп...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Инвестиции" href="articles/bitkoyn-vse-razbiraemsya-s-lyubimym-puzyrem.html">
+  <div class="card-cat">Инвестиции</div>
+  <h3>БИТКОЙН ВСЁ?! Разбираемся с любимым пузырём</h3>
+  <div class="card-desc">Очередной выпуск от блогера Алексея Антонова: «БИТКОЙН ВСЁ?! Разбираемся с любимым пузырём». Эксклюзив на Boosty, смотреть бесплатно в Teleg...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Технологии" href="articles/puls-platinovye-istorii-o-ludomanah.html">
+  <div class="card-cat">Технологии</div>
+  <h3>Пульс: платиновые истории о лудоманах</h3>
+  <div class="card-desc">Видео «Пульс: платиновые истории о лудоманах» от Алексея Антонова. Доступ к полному выпуску на Boosty, а смотреть бесплатно — в Telegram-кан...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Инвестиции" href="articles/minus-50000000-kak-ne-nado-torgovat-optsiony.html">
+  <div class="card-cat">Инвестиции</div>
+  <h3>Минус 50000000. Как НЕ надо торговать опционы</h3>
+  <div class="card-desc">Алексей Антонов представляет: «Минус 50000000. Как НЕ надо торговать опционы». Boosty-эксклюзив с глубоким разбором темы. Зарбрать бонус и с...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/pochemu-putin-ne-vykral-zelenskogo.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Почему Путин не выкрал Зеленского?</h3>
+  <div class="card-desc">Почему Путин не выкрал Зеленского? — эксклюзивный выпуск Алексея Антонова на Boosty. Аналитика, разборы и мнения, недоступные на YouTube. См...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Инвестиции" href="articles/rekomendatsii-k-pokupke-2026-sovety-brokerov-i-bankov.html">
+  <div class="card-cat">Инвестиции</div>
+  <h3>Рекомендации к покупке 2026: советы брокеров и банков</h3>
+  <div class="card-desc">Алексей Антонов разбирёт тему «Рекомендации к покупке 2026: советы брокеров и банков» на своём канале Boosty. Глубокий анализ, острые мнения...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Аналитика" href="articles/izbienie-endryu-teyta-i-dzheyka-pola-v-pryamom-efire.html">
+  <div class="card-cat">Аналитика</div>
+  <h3>Избиение Эндрю Тейта и Джейка Пола в прямом эфире</h3>
+  <div class="card-desc">«Избиение Эндрю Тейта и Джейка Пола в прямом эфире» — выпуск блогаера Алексея Антонова. Подкаст доступен на Boosty, смотреть бесплатно можно...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Аналитика" href="articles/smotrim-razoblachenie-antonova-s-grpzdc.html">
+  <div class="card-cat">Аналитика</div>
+  <h3>Смотрим РАЗОБЛАЧЕНИЕ Антонова с GRPZDC</h3>
+  <div class="card-desc">Смотрите видео Алексея Антонова «Смотрим РАЗОБЛАЧЕНИЕ Антонова с GRPZDC» на Boosty. Блогер Алексей Антонов делится аналитикой и инсайдами. Б...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/kak-strukturirovan-rossiyskiy-rynok-aktsiy.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Как структурирован российский рынок акций</h3>
+  <div class="card-desc">«Как структурирован российский рынок акций» с Алексеем Антоновым на Boosty. Авторский разбор темы, интервью с экспертами и прямые выводы. Ал...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Аналитика" href="articles/novyy-god-pora-rabotat.html">
+  <div class="card-cat">Аналитика</div>
+  <h3>Новый год, пора работать</h3>
+  <div class="card-desc">Очередной выпуск от блогера Алексея Антонова: «Новый год, пора работать». Эксклюзив на Boosty, смотреть бесплатно в Telegram. Антонов Бусти ...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Экономика" href="articles/prosto-li-byt-avtorom-prostoy-ekonomiki.html">
+  <div class="card-cat">Экономика</div>
+  <h3>Просто ли быть автором Простой экономики</h3>
+  <div class="card-desc">Видео «Просто ли быть автором Простой экономики» от Алексея Антонова. Доступ к полному выпуску на Boosty, а смотреть бесплатно — в Telegram-...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Аналитика" href="articles/muzhskoe-i-zhenskoe-brak-i-brachnyy-dogovor.html">
+  <div class="card-cat">Аналитика</div>
+  <h3>Мужское и Женское: брак и брачный договор</h3>
+  <div class="card-desc">Алексей Антонов представляет: «Мужское и Женское: брак и брачный договор». Boosty-эксклюзив с глубоким разбором темы. Зарбрать бонус и смотр...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/itogi-2025-s-krimsonom-individualizm-kapitalizm-i-separatnyy-mir-s-ssha.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Итоги-2025 с Кримсоном: индивидуализм, капитализм и сепаратный мир с США</h3>
+  <div class="card-desc">Итоги-2025 с Кримсоном: индивидуализм, капитализм и сепаратный мир с США — эксклюзивный выпуск Алексея Антонова на Boosty. Аналитика, разбор...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Культура" href="articles/bitva-za-bitvoy-razbiraem-svezhee-kino.html">
+  <div class="card-cat">Культура</div>
+  <h3>БИТВА ЗА БИТВОЙ: разбираем свежее кино</h3>
+  <div class="card-desc">Алексей Антонов разбирёт тему «БИТВА ЗА БИТВОЙ: разбираем свежее кино» на своём канале Boosty. Глубокий анализ, острые мнения и нестандартны...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/antonov-krimson-i-rossiyskie-aktsii-opyat.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Антонов, Кримсон и российские акции. Опять.</h3>
+  <div class="card-desc">«Антонов, Кримсон и российские акции. Опять.» — выпуск блогаера Алексея Антонова. Подкаст доступен на Boosty, смотреть бесплатно можно в Tel...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Аналитика" href="articles/smotrim-s-mishey-kak-naki-laet-na-dudya.html">
+  <div class="card-cat">Аналитика</div>
+  <h3>Смотрим с Мишей, как Наки лает на Дудя</h3>
+  <div class="card-desc">Смотрите видео Алексея Антонова «Смотрим с Мишей, как Наки лает на Дудя» на Boosty. Блогер Алексей Антонов делится аналитикой и инсайдами. Б...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Технологии" href="articles/vse-kak-v-zhizni-cyberpunk-2077-phantom-liberty.html">
+  <div class="card-cat">Технологии</div>
+  <h3>Всё как в жизни: Cyberpunk 2077 Phantom Liberty</h3>
+  <div class="card-desc">«Всё как в жизни: Cyberpunk 2077 Phantom Liberty» с Алексеем Антоновым на Boosty. Авторский разбор темы, интервью с экспертами и прямые выво...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Здоровье" href="articles/20-minut-aktualnogo-smi-natsisty-i-bezopasnost-shkol.html">
+  <div class="card-cat">Здоровье</div>
+  <h3>20 минут актуального: СМИ, нацисты и безопасность школ</h3>
+  <div class="card-desc">Очередной выпуск от блогера Алексея Антонова: «20 минут актуального: СМИ, нацисты и безопасность школ». Эксклюзив на Boosty, смотреть беспла...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Аналитика" href="articles/tri-kolduni-iz-dozhdya-obrabotali-dudya-reakt-na-drama-queens.html">
+  <div class="card-cat">Аналитика</div>
+  <h3>Три колдуньи из Дождя обработали Дудя: реакт на Drama Queens</h3>
+  <div class="card-desc">Видео «Три колдуньи из Дождя обработали Дудя: реакт на Drama Queens» от Алексея Антонова. Доступ к полному выпуску на Boosty, а смотреть бес...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Аналитика" href="articles/analiziruem-geopolitiku-po-metodichke-tsru.html">
+  <div class="card-cat">Аналитика</div>
+  <h3>Анализируем геополитику по методичке ЦРУ</h3>
+  <div class="card-desc">Алексей Антонов представляет: «Анализируем геополитику по методичке ЦРУ». Boosty-эксклюзив с глубоким разбором темы. Зарбрать бонус и смотре...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Аналитика" href="articles/vladimir-kirksov-vsya-pravda-o-gossluzhbe.html">
+  <div class="card-cat">Аналитика</div>
+  <h3>Владимир Кирксов: вся правда о госслужбе</h3>
+  <div class="card-desc">Владимир Кирксов: вся правда о госслужбе — эксклюзивный выпуск Алексея Антонова на Boosty. Аналитика, разборы и мнения, недоступные на YouTu...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Психология" href="articles/kak-zhit-uspeshno-strategicheskie-sovety.html">
+  <div class="card-cat">Психология</div>
+  <h3>Как жить УСПЕШНО: стратегические советы</h3>
+  <div class="card-desc">Алексей Антонов разбирёт тему «Как жить УСПЕШНО: стратегические советы» на своём канале Boosty. Глубокий анализ, острые мнения и нестандартн...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Аналитика" href="articles/kto-slivaet-dogovornyachok.html">
+  <div class="card-cat">Аналитика</div>
+  <h3>Кто сливает договорнячок?</h3>
+  <div class="card-desc">«Кто сливает договорнячок?» — выпуск блогаера Алексея Антонова. Подкаст доступен на Boosty, смотреть бесплатно можно в Telegram-канале. Анто...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Аналитика" href="articles/28-punktov-soglasheniya-chitaem-mezhdu-strok.html">
+  <div class="card-cat">Аналитика</div>
+  <h3>28 пунктов соглашения: читаем между строк</h3>
+  <div class="card-desc">Смотрите видео Алексея Антонова «28 пунктов соглашения: читаем между строк» на Boosty. Блогер Алексей Антонов делится аналитикой и инсайдами...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/oralnye-intrigi-trampa-mindich-v-rozyske-zelenskiy-v-turtsii.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Оральные интриги Трампа. Миндич в розыске. Зеленский в Турции.</h3>
+  <div class="card-desc">«Оральные интриги Трампа. Миндич в розыске. Зеленский в Турции.» с Алексеем Антоновым на Boosty. Авторский разбор темы, интервью с экспертам...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Культура" href="articles/chas-kultury-s-sergeem-zykinym-ilwt-pro-muzyku-literaturu-i-vdohnovenie.html">
+  <div class="card-cat">Культура</div>
+  <h3>Час культуры с Сергеем Зыкиным (ILWT): про музыку, литературу и вдохновение</h3>
+  <div class="card-desc">Очередной выпуск от блогера Алексея Антонова: «Час культуры с Сергеем Зыкиным (ILWT): про музыку, литературу и вдохновение». Эксклюзив на Bo...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Культура" href="articles/degustiruem-rep-vmeste-s-boulevard-depo.html">
+  <div class="card-cat">Культура</div>
+  <h3>Дегустируем рэп вместе с Boulevard Depo</h3>
+  <div class="card-desc">Видео «Дегустируем рэп вместе с Boulevard Depo» от Алексея Антонова. Доступ к полному выпуску на Boosty, а смотреть бесплатно — в Telegram-к...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/nyuansy-rossiysko-amerikanskoy-diplomatii-v-ramkah-svo.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Нюансы российско-американской дипломатии в рамках СВО</h3>
+  <div class="card-desc">Алексей Антонов представляет: «Нюансы российско-американской дипломатии в рамках СВО». Boosty-эксклюзив с глубоким разбором темы. Зарбрать б...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Аналитика" href="articles/ekonomit-na-vsem-i-uyti-na-pensiyu-v-35-ono-nam-nado.html">
+  <div class="card-cat">Аналитика</div>
+  <h3>Экономить на ВСЁМ и уйти на пенсию в 35. Оно нам надо?</h3>
+  <div class="card-desc">Экономить на ВСЁМ и уйти на пенсию в 35. Оно нам надо? — эксклюзивный выпуск Алексея Антонова на Boosty. Аналитика, разборы и мнения, недост...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/novyy-format-gosperevorotov-bunt-pokoleniya-z.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Новый формат госпереворотов: бунт поколения Z</h3>
+  <div class="card-desc">Алексей Антонов разбирёт тему «Новый формат госпереворотов: бунт поколения Z» на своём канале Boosty. Глубокий анализ, острые мнения и неста...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/spetsialnaya-venesuelskaya-operatsiya.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Специальная Венесуэльская Операция</h3>
+  <div class="card-desc">«Специальная Венесуэльская Операция» — выпуск блогаера Алексея Антонова. Подкаст доступен на Boosty, смотреть бесплатно можно в Telegram-кан...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Технологии" href="articles/legoyda-otvechaet-na-stydnye-voprosy-o-pravoslavii.html">
+  <div class="card-cat">Технологии</div>
+  <h3>Легойда отвечает на стыдные вопросы о православии</h3>
+  <div class="card-desc">Смотрите видео Алексея Антонова «Легойда отвечает на стыдные вопросы о православии» на Boosty. Блогер Алексей Антонов делится аналитикой и и...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Инвестиции" href="articles/kapitalizatsiya-kompanii-chto-eto-zachem-i-dlya-kogo.html">
+  <div class="card-cat">Инвестиции</div>
+  <h3>Капитализация компании: что это, зачем и для кого</h3>
+  <div class="card-desc">«Капитализация компании: что это, зачем и для кого» с Алексеем Антоновым на Boosty. Авторский разбор темы, интервью с экспертами и прямые вы...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/tramp-i-tomagavki-pryamaya-rech-iz-belogo-doma.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Трамп и Томагавки: прямая речь из Белого Дома</h3>
+  <div class="card-desc">Очередной выпуск от блогера Алексея Антонова: «Трамп и Томагавки: прямая речь из Белого Дома». Эксклюзив на Boosty, смотреть бесплатно в Tel...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Инвестиции" href="articles/individualnaya-konsultatsiya-po-investitsiyam.html">
+  <div class="card-cat">Инвестиции</div>
+  <h3>Индивидуальная консультация по инвестициям</h3>
+  <div class="card-desc">Видео «Индивидуальная консультация по инвестициям» от Алексея Антонова. Доступ к полному выпуску на Boosty, а смотреть бесплатно — в Telegra...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Аналитика" href="articles/evropeytsy-buntuyut-smotrim-reportazh-s-mesta-sobytiy.html">
+  <div class="card-cat">Аналитика</div>
+  <h3>Европейцы бунтуют: смотрим репортаж с места событий</h3>
+  <div class="card-desc">Алексей Антонов представляет: «Европейцы бунтуют: смотрим репортаж с места событий». Boosty-эксклюзив с глубоким разбором темы. Зарбрать бон...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/arestovich-u-sobchak-analiziruem-pozitsiyu.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Арестович у Собчак: анализируем позицию</h3>
+  <div class="card-desc">Арестович у Собчак: анализируем позицию — эксклюзивный выпуск Алексея Антонова на Boosty. Аналитика, разборы и мнения, недоступные на YouTub...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/chitaem-tvitter-i-gotovimsya-k-voyne-s-nato.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Читаем твиттер и готовимся к войне с НАТО</h3>
+  <div class="card-desc">Алексей Антонов разбирёт тему «Читаем твиттер и готовимся к войне с НАТО» на своём канале Boosty. Глубокий анализ, острые мнения и нестандар...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Аналитика" href="articles/puchkov-i-antonov-osenniy-razvedopros.html">
+  <div class="card-cat">Аналитика</div>
+  <h3>Пучков и Антонов: осенний разведопрос</h3>
+  <div class="card-desc">«Пучков и Антонов: осенний разведопрос» — выпуск блогаера Алексея Антонова. Подкаст доступен на Boosty, смотреть бесплатно можно в Telegram-...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Аналитика" href="articles/strana-s-nepredskazuemym-buduschim.html">
+  <div class="card-cat">Аналитика</div>
+  <h3>Страна с непредсказуемым будущим</h3>
+  <div class="card-desc">Смотрите видео Алексея Антонова «Страна с непредсказуемым будущим» на Boosty. Блогер Алексей Антонов делится аналитикой и инсайдами. Бонусы ...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/v-rossii-povysyat-nalogi-i-sbory-a-lgoty-umenshat.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>В России повысят налоги и сборы, а льготы уменьшат</h3>
+  <div class="card-desc">«В России повысят налоги и сборы, а льготы уменьшат» с Алексеем Антоновым на Boosty. Авторский разбор темы, интервью с экспертами и прямые в...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/adskoe-koleso-dlya-homyaka-tirlist-prokrastinatora.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Адское колесо для хомяка: тирлист прокрастинатора</h3>
+  <div class="card-desc">Очередной выпуск от блогера Алексея Антонова: «Адское колесо для хомяка: тирлист прокрастинатора». Эксклюзив на Boosty, смотреть бесплатно в...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Аналитика" href="articles/ocherednaya-popytka-otrezvit-grazhdan.html">
+  <div class="card-cat">Аналитика</div>
+  <h3>Очередная попытка отрезвить граждан</h3>
+  <div class="card-desc">Видео «Очередная попытка отрезвить граждан» от Алексея Антонова. Доступ к полному выпуску на Boosty, а смотреть бесплатно — в Telegram-канал...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Аналитика" href="articles/za-kakoe-mnenie-strelyayut-v-liderov-mneniy.html">
+  <div class="card-cat">Аналитика</div>
+  <h3>За какое мнение стреляют в лидеров мнений</h3>
+  <div class="card-desc">Алексей Антонов представляет: «За какое мнение стреляют в лидеров мнений». Boosty-эксклюзив с глубоким разбором темы. Зарбрать бонус и смотр...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/zhirinovskiy-protiv-sssr-top-10-yarkih-vystupleniy.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Жириновский против СССР: топ-10 ярких выступлений</h3>
+  <div class="card-desc">Жириновский против СССР: топ-10 ярких выступлений — эксклюзивный выпуск Алексея Антонова на Boosty. Аналитика, разборы и мнения, недоступные...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Аналитика" href="articles/gde-luchshe-zhit-tirlist-kriteriev-dlya-sravneniya-stran.html">
+  <div class="card-cat">Аналитика</div>
+  <h3>Где лучше жить? Тирлист критериев для сравнения стран</h3>
+  <div class="card-desc">Алексей Антонов разбирёт тему «Где лучше жить? Тирлист критериев для сравнения стран» на своём канале Boosty. Глубокий анализ, острые мнения...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/4-sposoba-stat-sverhbogatym-v-rossii-legalno.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>4 способа стать сверхбогатым в России легально</h3>
+  <div class="card-desc">«4 способа стать сверхбогатым в России легально» — выпуск блогаера Алексея Антонова. Подкаст доступен на Boosty, смотреть бесплатно можно в ...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/zagovor-protiv-ssha.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Заговор против США</h3>
+  <div class="card-desc">Смотрите видео Алексея Антонова «Заговор против США» на Boosty. Блогер Алексей Антонов делится аналитикой и инсайдами. Бонусы и полный досту...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/pro-zarplaty-i-perspektivy-rossiyskih-vrachey-i-uchiteley-krivaya-liniya-s-alekseem-antonovym.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Про зарплаты и перспективы российских врачей и учителей – кривая линия с Алексеем Антоновым</h3>
+  <div class="card-desc">«Про зарплаты и перспективы российских врачей и учителей – кривая линия с Алексеем Антоновым» с Алексеем Антоновым на Boosty. Авторский разб...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/hristianstvo-stanovitsya-populyarnym-no-ne-v-rossii.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Христианство становится популярным, но не в России</h3>
+  <div class="card-desc">Очередной выпуск от блогера Алексея Антонова: «Христианство становится популярным, но не в России». Эксклюзив на Boosty, смотреть бесплатно ...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/u-nas-alyaska-u-zelenskogo-tryaska.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>У нас Аляска, у Зеленского тряска</h3>
+  <div class="card-desc">Видео «У нас Аляска, у Зеленского тряска» от Алексея Антонова. Доступ к полному выпуску на Boosty, а смотреть бесплатно — в Telegram-канале....</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/led-tronulsya-putin-i-tramp-vstrechayutsya-na-alyaske.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Лёд тронулся: Путин и Трамп встречаются на Аляске</h3>
+  <div class="card-desc">Алексей Антонов представляет: «Лёд тронулся: Путин и Трамп встречаются на Аляске». Boosty-эксклюзив с глубоким разбором темы. Зарбрать бонус...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/kak-ustroena-vlast-v-rossii-na-samom-dele.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Как устроена власть в России на самом деле</h3>
+  <div class="card-desc">Как устроена власть в России на самом деле — эксклюзивный выпуск Алексея Антонова на Boosty. Аналитика, разборы и мнения, недоступные на You...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/nevzorov-u-dudya-staryy-rusofob-hodit-pod-sebya.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Невзоров у Дудя: старый русофоб ходит под себя</h3>
+  <div class="card-desc">Алексей Антонов разбирёт тему «Невзоров у Дудя: старый русофоб ходит под себя» на своём канале Boosty. Глубокий анализ, острые мнения и нест...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/ilya-yashin-predlozhil-z-patriotam-obedinitsya-protiv-putina.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Илья Яшин предложил Z-патриотам объединиться против Путина</h3>
+  <div class="card-desc">«Илья Яшин предложил Z-патриотам объединиться против Путина» — выпуск блогаера Алексея Антонова. Подкаст доступен на Boosty, смотреть беспла...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/buduschee-rossiyskih-bankov-i-kto-voobsche-v-nih-investiruet.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Будущее российских банков и кто вообще в них инвестирует</h3>
+  <div class="card-desc">Смотрите видео Алексея Антонова «Будущее российских банков и кто вообще в них инвестирует» на Boosty. Блогер Алексей Антонов делится аналити...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Аналитика" href="articles/ideologi-opyat-prosyat-deneg-mechta-ne-sbudetsya.html">
+  <div class="card-cat">Аналитика</div>
+  <h3>Идеологи опять просят денег. Мечта не сбудется!</h3>
+  <div class="card-desc">«Идеологи опять просят денег. Мечта не сбудется!» с Алексеем Антоновым на Boosty. Авторский разбор темы, интервью с экспертами и прямые выво...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/dud-prodalsya-kremlyu-razgromnoe-bezdarnoe-intervyu-s-makfolom.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Дудь продался Кремлю? РАЗГРОМНОЕ (бездарное) интервью с Макфолом</h3>
+  <div class="card-desc">Очередной выпуск от блогера Алексея Антонова: «Дудь продался Кремлю? РАЗГРОМНОЕ (бездарное) интервью с Макфолом». Эксклюзив на Boosty, смотр...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/chto-proishodit-s-ekonomikoy-rossii.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Что происходит с экономикой России?</h3>
+  <div class="card-desc">Видео «Что происходит с экономикой России?» от Алексея Антонова. Доступ к полному выпуску на Boosty, а смотреть бесплатно — в Telegram-канал...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/kuda-tramp-spisok-epshteyna-podeval.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Куда Трамп список Эпштейна подевал?</h3>
+  <div class="card-desc">Алексей Антонов представляет: «Куда Трамп список Эпштейна подевал?». Boosty-эксклюзив с глубоким разбором темы. Зарбрать бонус и смотреть бе...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Аналитика" href="articles/pochemu-chinovniki-voruyut-dazhe-kogda-nelzya.html">
+  <div class="card-cat">Аналитика</div>
+  <h3>Почему чиновники воруют, даже когда нельзя</h3>
+  <div class="card-desc">Почему чиновники воруют, даже когда нельзя — эксклюзивный выпуск Алексея Антонова на Boosty. Аналитика, разборы и мнения, недоступные на You...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/ssha-ne-nuzhny-tri-partii-a-rossii-ne-pomeshalo-by-dve.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>США не нужны три партии, а России не помешало бы две</h3>
+  <div class="card-desc">Алексей Антонов разбирёт тему «США не нужны три партии, а России не помешало бы две» на своём канале Boosty. Глубокий анализ, острые мнения ...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Бизнес" href="articles/bally-za-dela-kak-ne-slivatsya-i-rabotat-vdolguyu.html">
+  <div class="card-cat">Бизнес</div>
+  <h3>Баллы за дела: как не сливаться и работать вдолгую</h3>
+  <div class="card-desc">«Баллы за дела: как не сливаться и работать вдолгую» — выпуск блогаера Алексея Антонова. Подкаст доступен на Boosty, смотреть бесплатно можн...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/diplomaticheskiy-skandal-rossiya-i-azerbaydzhan.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Дипломатический скандал: Россия и Азербайджан</h3>
+  <div class="card-desc">Смотрите видео Алексея Антонова «Дипломатический скандал: Россия и Азербайджан» на Boosty. Блогер Алексей Антонов делится аналитикой и инсай...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Аналитика" href="articles/venediktov-u-dudya-i-vashim-i-nashim.html">
+  <div class="card-cat">Аналитика</div>
+  <h3>Венедиктов у Дудя: и вашим, и нашим</h3>
+  <div class="card-desc">«Венедиктов у Дудя: и вашим, и нашим» с Алексеем Антоновым на Boosty. Авторский разбор темы, интервью с экспертами и прямые выводы. Алексей ...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Аналитика" href="articles/ischem-zhenu-asafevu.html">
+  <div class="card-cat">Аналитика</div>
+  <h3>Ищем жену Асафьеву</h3>
+  <div class="card-desc">Очередной выпуск от блогера Алексея Антонова: «Ищем жену Асафьеву». Эксклюзив на Boosty, смотреть бесплатно в Telegram. Антонов Бусти слив —...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/ne-longanesh-ne-kayfanesh-antonov-i-krimson-sortiruyut-rossiyskie-aktsii.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Не лонганешь – не кайфанешь: Антонов и Кримсон сортируют российские акции</h3>
+  <div class="card-desc">Видео «Не лонганешь – не кайфанешь: Антонов и Кримсон сортируют российские акции» от Алексея Антонова. Доступ к полному выпуску на Boosty, а...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/kak-iranskie-patrioty-prosrali-stranu.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Как иранские патриоты просрали страну</h3>
+  <div class="card-desc">Алексей Антонов представляет: «Как иранские патриоты просрали страну». Boosty-эксклюзив с глубоким разбором темы. Зарбрать бонус и смотреть ...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Технологии" href="articles/lichnaya-bezopasnost-teoriya-i-prakticheskie-rekomendatsii.html">
+  <div class="card-cat">Технологии</div>
+  <h3>Личная Безопасность: теория и практические рекомендации</h3>
+  <div class="card-desc">Личная Безопасность: теория и практические рекомендации — эксклюзивный выпуск Алексея Антонова на Boosty. Аналитика, разборы и мнения, недос...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/izrail-napal-na-iran-zachem-i-pochemu.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Израиль напал на Иран: зачем и почему</h3>
+  <div class="card-desc">Алексей Антонов разбирёт тему «Израиль напал на Иран: зачем и почему» на своём канале Boosty. Глубокий анализ, острые мнения и нестандартный...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/kaliforniya-v-ogne-migranty-i-nyusom-protiv-armii-i-trampa.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Калифорния в огне: мигранты и Ньюсом против армии и Трампа</h3>
+  <div class="card-desc">«Калифорния в огне: мигранты и Ньюсом против армии и Трампа» — выпуск блогаера Алексея Антонова. Подкаст доступен на Boosty, смотреть беспла...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Технологии" href="articles/ischi-sebya-v-proshmandovtsah-russkoy-emigratsii.html">
+  <div class="card-cat">Технологии</div>
+  <h3>Ищи себя в прошмандовцах русской эмиграции</h3>
+  <div class="card-desc">Смотрите видео Алексея Антонова «Ищи себя в прошмандовцах русской эмиграции» на Boosty. Блогер Алексей Антонов делится аналитикой и инсайдам...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/tramp-i-mask-derutsya-za-buduschee-ameriki.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Трамп и Маск дерутся за будущее Америки</h3>
+  <div class="card-desc">«Трамп и Маск дерутся за будущее Америки» с Алексеем Антоновым на Boosty. Авторский разбор темы, интервью с экспертами и прямые выводы. Алек...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Аналитика" href="articles/o-peregovorah-i-effektivnyh-imperiyah.html">
+  <div class="card-cat">Аналитика</div>
+  <h3>О переговорах и эффективных империях</h3>
+  <div class="card-desc">Очередной выпуск от блогера Алексея Антонова: «О переговорах и эффективных империях». Эксклюзив на Boosty, смотреть бесплатно в Telegram. Ан...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Технологии" href="articles/v-skufizatsii-vinovat-patriarhat.html">
+  <div class="card-cat">Технологии</div>
+  <h3>В скуфизации виноват патриархат</h3>
+  <div class="card-desc">Видео «В скуфизации виноват патриархат» от Алексея Антонова. Доступ к полному выпуску на Boosty, а смотреть бесплатно — в Telegram-канале. А...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Бизнес" href="articles/aleks-hormozi-poltora-chasa-zhestkoy-pravdy-o-teh-kto-brosaet.html">
+  <div class="card-cat">Бизнес</div>
+  <h3>Алекс Хормози: полтора часа жесткой правды о тех, кто бросает</h3>
+  <div class="card-desc">Алексей Антонов представляет: «Алекс Хормози: полтора часа жесткой правды о тех, кто бросает». Boosty-эксклюзив с глубоким разбором темы. За...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/vzlet-i-padenie-amerikanskoy-ekonomiki.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Взлет и падение американской экономики</h3>
+  <div class="card-desc">Взлет и падение американской экономики — эксклюзивный выпуск Алексея Антонова на Boosty. Аналитика, разборы и мнения, недоступные на YouTube...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Аналитика" href="articles/dolgozavisimye.html">
+  <div class="card-cat">Аналитика</div>
+  <h3>ДОЛГОЗАВИСИМЫЕ</h3>
+  <div class="card-desc">Алексей Антонов разбирёт тему «ДОЛГОЗАВИСИМЫЕ» на своём канале Boosty. Глубокий анализ, острые мнения и нестандартный взгляд. Полный выпуск ...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/peregovory-v-stambule.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Переговоры в Стамбуле</h3>
+  <div class="card-desc">«Переговоры в Стамбуле» — выпуск блогаера Алексея Антонова. Подкаст доступен на Boosty, смотреть бесплатно можно в Telegram-канале. Антонов ...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Экономика" href="articles/ekonomicheskie-gluposti-deputatov-tirlist.html">
+  <div class="card-cat">Экономика</div>
+  <h3>Экономические глупости депутатов: тирлист</h3>
+  <div class="card-desc">Смотрите видео Алексея Антонова «Экономические глупости депутатов: тирлист» на Boosty. Блогер Алексей Антонов делится аналитикой и инсайдами...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Аналитика" href="articles/pozhar-mirovogo-liberalizma.html">
+  <div class="card-cat">Аналитика</div>
+  <h3>Пожар мирового либерализма</h3>
+  <div class="card-desc">«Пожар мирового либерализма» с Алексеем Антоновым на Boosty. Авторский разбор темы, интервью с экспертами и прямые выводы. Алексей Антонов Б...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Аналитика" href="articles/ya-trebuyu-vvesti-tsenzuru.html">
+  <div class="card-cat">Аналитика</div>
+  <h3>Я требую ввести цензуру</h3>
+  <div class="card-desc">Очередной выпуск от блогера Алексея Антонова: «Я требую ввести цензуру». Эксклюзив на Boosty, смотреть бесплатно в Telegram. Антонов Бусти с...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Инвестиции" href="articles/proyti-500-muzhchin-radi-oligarha.html">
+  <div class="card-cat">Инвестиции</div>
+  <h3>Пройти 500 мужчин ради олигарха</h3>
+  <div class="card-desc">Видео «Пройти 500 мужчин ради олигарха» от Алексея Антонова. Доступ к полному выпуску на Boosty, а смотреть бесплатно — в Telegram-канале. А...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/plyus-200k-za-den-na-tarifnyh-voynah.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Плюс 200k за день на тарифных войнах</h3>
+  <div class="card-desc">Алексей Антонов представляет: «Плюс 200k за день на тарифных войнах». Boosty-эксклюзив с глубоким разбором темы. Зарбрать бонус и смотреть б...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Инвестиции" href="articles/reyting-legendarnyh-investorov.html">
+  <div class="card-cat">Инвестиции</div>
+  <h3>Рейтинг легендарных инвесторов</h3>
+  <div class="card-desc">Рейтинг легендарных инвесторов — эксклюзивный выпуск Алексея Антонова на Boosty. Аналитика, разборы и мнения, недоступные на YouTube. Смотри...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/pilotiruy-svoyu-obezyanu-gde-rabotat-chto-luchshe-i-kak-vygodno.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Пилотируй свою обезьяну: где работать, что лучше и как выгодно</h3>
+  <div class="card-desc">Алексей Антонов разбирёт тему «Пилотируй свою обезьяну: где работать, что лучше и как выгодно» на своём канале Boosty. Глубокий анализ, остр...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Бизнес" href="articles/biznes-plan-dlya-konserzhki-nastraivaem-voronku-po-prodazhe-intim-uslug.html">
+  <div class="card-cat">Бизнес</div>
+  <h3>Бизнес-план для консьержки: настраиваем воронку по продаже интим-услуг</h3>
+  <div class="card-desc">«Бизнес-план для консьержки: настраиваем воронку по продаже интим-услуг» — выпуск блогаера Алексея Антонова. Подкаст доступен на Boosty, смо...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/doydet-li-putin-do-la-mansha-prognozy-katsa-pryamikom-iz-durki.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Дойдёт ли Путин до Ла-манша? Прогнозы Каца прямиком из дурки</h3>
+  <div class="card-desc">Смотрите видео Алексея Антонова «Дойдёт ли Путин до Ла-манша? Прогнозы Каца прямиком из дурки» на Boosty. Блогер Алексей Антонов делится ана...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/kto-budet-prezidentom-ukrainy.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Кто будет президентом Украины?</h3>
+  <div class="card-desc">«Кто будет президентом Украины?» с Алексеем Антоновым на Boosty. Авторский разбор темы, интервью с экспертами и прямые выводы. Алексей Антон...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Инвестиции" href="articles/a-kak-naschet-zakrytsya-v-komnate-poka-ne-zarabotaesh-million-baksov.html">
+  <div class="card-cat">Инвестиции</div>
+  <h3>А как насчёт... закрыться в комнате, пока не заработаешь миллион баксов?</h3>
+  <div class="card-desc">Очередной выпуск от блогера Алексея Антонова: «А как насчёт... закрыться в комнате, пока не заработаешь миллион баксов?». Эксклюзив на Boost...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/uitkoff-u-karlsona-novaya-amerika-i-chto-nam-s-ney-delat.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Уиткофф у Карлсона: новая Америка и что нам с ней делать</h3>
+  <div class="card-desc">Видео «Уиткофф у Карлсона: новая Америка и что нам с ней делать» от Алексея Антонова. Доступ к полному выпуску на Boosty, а смотреть бесплат...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Аналитика" href="articles/pokupaem-na-hayah-a-potom-chto.html">
+  <div class="card-cat">Аналитика</div>
+  <h3>Покупаем на хаях, а потом что?</h3>
+  <div class="card-desc">Алексей Антонов представляет: «Покупаем на хаях, а потом что?». Boosty-эксклюзив с глубоким разбором темы. Зарбрать бонус и смотреть бесплат...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Аналитика" href="articles/lechim-liberalov-za-12-shagov-politicheskiy-realizm.html">
+  <div class="card-cat">Аналитика</div>
+  <h3>Лечим либералов за 12 шагов: политический реализм</h3>
+  <div class="card-desc">Лечим либералов за 12 шагов: политический реализм — эксклюзивный выпуск Алексея Антонова на Boosty. Аналитика, разборы и мнения, недоступные...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Бизнес" href="articles/aleks-hormozi-kak-sobrat-komandu-dlya-biznes-priklyucheniy.html">
+  <div class="card-cat">Бизнес</div>
+  <h3>Алекс Хормози: как собрать команду для бизнес-приключений</h3>
+  <div class="card-desc">Алексей Антонов разбирёт тему «Алекс Хормози: как собрать команду для бизнес-приключений» на своём канале Boosty. Глубокий анализ, острые мн...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Культура" href="articles/prokurka-s-artemiem-lebedevym.html">
+  <div class="card-cat">Культура</div>
+  <h3>Прокурка с Артемием Лебедевым</h3>
+  <div class="card-desc">«Прокурка с Артемием Лебедевым» — выпуск блогаера Алексея Антонова. Подкаст доступен на Boosty, смотреть бесплатно можно в Telegram-канале. ...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Технологии" href="articles/polnaya-zapis-lektsii-v-mgimo-ot-11-marta-2025-goda.html">
+  <div class="card-cat">Технологии</div>
+  <h3>Полная запись лекции в МГИМО от 11 марта 2025 года</h3>
+  <div class="card-desc">Смотрите видео Алексея Антонова «Полная запись лекции в МГИМО от 11 марта 2025 года» на Boosty. Блогер Алексей Антонов делится аналитикой и ...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Технологии" href="articles/arsen-markaryan-prohladnye-istorii-krysinogo-krolya.html">
+  <div class="card-cat">Технологии</div>
+  <h3>Арсен Маркарян: прохладные истории крысиного кроля</h3>
+  <div class="card-desc">«Арсен Маркарян: прохладные истории крысиного кроля» с Алексеем Антоновым на Boosty. Авторский разбор темы, интервью с экспертами и прямые в...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Бизнес" href="articles/aleks-hormozi-obuchenie-predprinimatelstvu-prodazhi-infobiznes.html">
+  <div class="card-cat">Бизнес</div>
+  <h3>Алекс Хормози: обучение предпринимательству, продажи, инфобизнес</h3>
+  <div class="card-desc">Очередной выпуск от блогера Алексея Антонова: «Алекс Хормози: обучение предпринимательству, продажи, инфобизнес». Эксклюзив на Boosty, смотр...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/fort-noks-pust-afera-s-zolotom-ssha.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Форт-Нокс пуст? Афера с золотом США</h3>
+  <div class="card-desc">Видео «Форт-Нокс пуст? Афера с золотом США» от Алексея Антонова. Доступ к полному выпуску на Boosty, а смотреть бесплатно — в Telegram-канал...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Бизнес" href="articles/chempion-vysshey-ligi-kvn-pokazyvaet-master-klass-po-peregovoram.html">
+  <div class="card-cat">Бизнес</div>
+  <h3>Чемпион Высшей лиги КВН показывает мастер-класс по переговорам</h3>
+  <div class="card-desc">Алексей Антонов представляет: «Чемпион Высшей лиги КВН показывает мастер-класс по переговорам». Boosty-эксклюзив с глубоким разбором темы. З...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Инвестиции" href="articles/lichnyy-opyt-torguem-fyuchers-na-bitcoin.html">
+  <div class="card-cat">Инвестиции</div>
+  <h3>Личный опыт: торгуем фьючерс на Bitcoin</h3>
+  <div class="card-desc">Личный опыт: торгуем фьючерс на Bitcoin — эксклюзивный выпуск Алексея Антонова на Boosty. Аналитика, разборы и мнения, недоступные на YouTub...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Религия" href="articles/otets-moisey-obyasnyaet-za-muzhskoe.html">
+  <div class="card-cat">Религия</div>
+  <h3>Отец Моисей объясняет за мужское</h3>
+  <div class="card-desc">Алексей Антонов разбирёт тему «Отец Моисей объясняет за мужское» на своём канале Boosty. Глубокий анализ, острые мнения и нестандартный взгл...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Религия" href="articles/pravoslavnyy-chubays-konstantin-malofeev-milliarder-patriot-svyatoy-pochti.html">
+  <div class="card-cat">Религия</div>
+  <h3>Православный Чубайс: Константин Малофеев — миллиардер, патриот, святой (почти)</h3>
+  <div class="card-desc">«Православный Чубайс: Константин Малофеев — миллиардер, патриот, святой (почти)» — выпуск блогаера Алексея Антонова. Подкаст доступен на Boo...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/demografiya-nas-obmanyvayut-viktor-marahovskiy-pro-vymiranie.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Демография: нас обманывают? Виктор Мараховский про вымирание</h3>
+  <div class="card-desc">Смотрите видео Алексея Антонова «Демография: нас обманывают? Виктор Мараховский про вымирание» на Boosty. Блогер Алексей Антонов делится ана...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Аналитика" href="articles/po-tonkomu-ldu-s-dmitriem-puchkovym.html">
+  <div class="card-cat">Аналитика</div>
+  <h3>По тонкому льду с Дмитрием Пучковым</h3>
+  <div class="card-desc">«По тонкому льду с Дмитрием Пучковым» с Алексеем Антоновым на Boosty. Авторский разбор темы, интервью с экспертами и прямые выводы. Алексей ...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/trampologiya-chto-on-delaet-i-kak-ego-ponimat.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Трампология: что он делает и как его понимать</h3>
+  <div class="card-desc">Очередной выпуск от блогера Алексея Антонова: «Трампология: что он делает и как его понимать». Эксклюзив на Boosty, смотреть бесплатно в Tel...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/kak-uspet-zarabotat-na-zavershenii-svo.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Как успеть заработать на завершении СВО?</h3>
+  <div class="card-desc">Видео «Как успеть заработать на завершении СВО?» от Алексея Антонова. Доступ к полному выпуску на Boosty, а смотреть бесплатно — в Telegram-...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Аналитика" href="articles/panov-kak-zhit-na-110-i-ne-sdohnut-ot-peregruza.html">
+  <div class="card-cat">Аналитика</div>
+  <h3>Панов: Как жить на 110% и не сдохнуть от перегруза?</h3>
+  <div class="card-desc">Алексей Антонов представляет: «Панов: Как жить на 110% и не сдохнуть от перегруза?». Boosty-эксклюзив с глубоким разбором темы. Зарбрать бон...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Аналитика" href="articles/bzhzh-shahmaty-iz-mira-edinoborstv-ili-gachi-muchi.html">
+  <div class="card-cat">Аналитика</div>
+  <h3>БЖЖ: шахматы из мира единоборств или гачи-мучи?</h3>
+  <div class="card-desc">БЖЖ: шахматы из мира единоборств или гачи-мучи? — эксклюзивный выпуск Алексея Антонова на Boosty. Аналитика, разборы и мнения, недоступные н...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Аналитика" href="articles/kurs-nachinayuschey-soderzhanki-metod-obezzhirivaniya.html">
+  <div class="card-cat">Аналитика</div>
+  <h3>Курс начинающей содержанки. Метод ОБЕЗЖИРИВАНИЯ</h3>
+  <div class="card-desc">Алексей Антонов разбирёт тему «Курс начинающей содержанки. Метод ОБЕЗЖИРИВАНИЯ» на своём канале Boosty. Глубокий анализ, острые мнения и нес...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Инвестиции" href="articles/psihologiya-investora.html">
+  <div class="card-cat">Инвестиции</div>
+  <h3>Психология инвестора</h3>
+  <div class="card-desc">«Психология инвестора» — выпуск блогаера Алексея Антонова. Подкаст доступен на Boosty, смотреть бесплатно можно в Telegram-канале. Антонов Б...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/chudesa-na-strime-naladili-kontakt-s-oppozitsiey.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Чудеса на стриме: наладили контакт с оппозицией</h3>
+  <div class="card-desc">Смотрите видео Алексея Антонова «Чудеса на стриме: наладили контакт с оппозицией» на Boosty. Блогер Алексей Антонов делится аналитикой и инс...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/glazev-i-guriev-po-ocheredi-spasayut-rossiyu.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Глазьев и Гуриев по очереди спасают Россию</h3>
+  <div class="card-desc">«Глазьев и Гуриев по очереди спасают Россию» с Алексеем Антоновым на Boosty. Авторский разбор темы, интервью с экспертами и прямые выводы. А...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/smotrim-zelenskogo-u-leksa-fridmana.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Смотрим Зеленского у Лекса Фридмана</h3>
+  <div class="card-desc">Очередной выпуск от блогера Алексея Антонова: «Смотрим Зеленского у Лекса Фридмана». Эксклюзив на Boosty, смотреть бесплатно в Telegram. Ант...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Инвестиции" href="articles/sobiraem-portfel-kak-investirovat-100-tr.html">
+  <div class="card-cat">Инвестиции</div>
+  <h3>Собираем портфель: как инвестировать 100 т.р.</h3>
+  <div class="card-desc">Видео «Собираем портфель: как инвестировать 100 т.р.» от Алексея Антонова. Доступ к полному выпуску на Boosty, а смотреть бесплатно — в Tele...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Аналитика" href="articles/krismas-krimson-speshal-itogi-2024.html">
+  <div class="card-cat">Аналитика</div>
+  <h3>Крисмас Кримсон Спешал: итоги 2024</h3>
+  <div class="card-desc">Алексей Антонов представляет: «Крисмас Кримсон Спешал: итоги 2024». Boosty-эксклюзив с глубоким разбором темы. Зарбрать бонус и смотреть бес...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Аналитика" href="articles/vestnik-unyniya-rassuzhdaet-o-zapadnoy-molodezhi.html">
+  <div class="card-cat">Аналитика</div>
+  <h3>Вестник уныния рассуждает о западной молодёжи</h3>
+  <div class="card-desc">Вестник уныния рассуждает о западной молодёжи — эксклюзивный выпуск Алексея Антонова на Boosty. Аналитика, разборы и мнения, недоступные на ...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Бизнес" href="articles/otkuda-beretsya-neravenstvo-i-chto-s-nim-nuzhno-delat.html">
+  <div class="card-cat">Бизнес</div>
+  <h3>Откуда берётся неравенство и что с ним нужно делать</h3>
+  <div class="card-desc">Алексей Антонов разбирёт тему «Откуда берётся неравенство и что с ним нужно делать» на своём канале Boosty. Глубокий анализ, острые мнения и...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Аналитика" href="articles/dve-ostyvshie-milfy-pytayutsya-v-politologiyu-smotret-onlayn-full-hd.html">
+  <div class="card-cat">Аналитика</div>
+  <h3>Две остывшие милфы пытаются в политологию смотреть онлайн full hd</h3>
+  <div class="card-desc">«Две остывшие милфы пытаются в политологию смотреть онлайн full hd» — выпуск блогаера Алексея Антонова. Подкаст доступен на Boosty, смотреть...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Психология" href="articles/otkrovennyy-razgovor-pro-otnosheniya-s-bogom.html">
+  <div class="card-cat">Психология</div>
+  <h3>Откровенный разговор про отношения с Богом</h3>
+  <div class="card-desc">Смотрите видео Алексея Антонова «Откровенный разговор про отношения с Богом» на Boosty. Блогер Алексей Антонов делится аналитикой и инсайдам...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Аналитика" href="articles/spekulyanty-i-arbitrazhniki-otkuda-vzyalis-i-pochemu-bez-nih-nikak.html">
+  <div class="card-cat">Аналитика</div>
+  <h3>Спекулянты и арбитражники: откуда взялись и почему без них никак</h3>
+  <div class="card-desc">«Спекулянты и арбитражники: откуда взялись и почему без них никак» с Алексеем Антоновым на Boosty. Авторский разбор темы, интервью с эксперт...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Психология" href="articles/motivatsiyu-nado-podnyat.html">
+  <div class="card-cat">Психология</div>
+  <h3>Мотивацию надо поднять</h3>
+  <div class="card-desc">Очередной выпуск от блогера Алексея Антонова: «Мотивацию надо поднять». Эксклюзив на Boosty, смотреть бесплатно в Telegram. Антонов Бусти сл...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Аналитика" href="articles/intervyu-s-analitikom-kvantom-odnogo-prop-deska.html">
+  <div class="card-cat">Аналитика</div>
+  <h3>Интервью с аналитиком-квантом одного проп-деска</h3>
+  <div class="card-desc">Видео «Интервью с аналитиком-квантом одного проп-деска» от Алексея Антонова. Доступ к полному выпуску на Boosty, а смотреть бесплатно — в Te...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/anatoliy-shariy-luchshiy-drug-rossii.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Анатолий Шарий — лучший друг России</h3>
+  <div class="card-desc">Алексей Антонов представляет: «Анатолий Шарий — лучший друг России». Boosty-эксклюзив с глубоким разбором темы. Зарбрать бонус и смотреть бе...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Экономика" href="articles/banking-shmanking-sinor-derivativschik-2.html">
+  <div class="card-cat">Экономика</div>
+  <h3>Банкинг-шманкинг: синьор-деривативщик 2</h3>
+  <div class="card-desc">Банкинг-шманкинг: синьор-деривативщик 2 — эксклюзивный выпуск Алексея Антонова на Boosty. Аналитика, разборы и мнения, недоступные на YouTub...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/zachem-voyna-i-pochemu-mir.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Зачем война и почему мир</h3>
+  <div class="card-desc">Алексей Антонов разбирёт тему «Зачем война и почему мир» на своём канале Boosty. Глубокий анализ, острые мнения и нестандартный взгляд. Полн...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Инвестиции" href="articles/nemnogo-pro-dividendy.html">
+  <div class="card-cat">Инвестиции</div>
+  <h3>Немного про дивиденды</h3>
+  <div class="card-desc">«Немного про дивиденды» — выпуск блогаера Алексея Антонова. Подкаст доступен на Boosty, смотреть бесплатно можно в Telegram-канале. Антонов ...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Экономика" href="articles/kristall-rosta-teoriya-ekonomicheskogo-shizopatriotizma-chast-3.html">
+  <div class="card-cat">Экономика</div>
+  <h3>Кристалл Роста: теория экономического шизопатриотизма. Часть 3</h3>
+  <div class="card-desc">Смотрите видео Алексея Антонова «Кристалл Роста: теория экономического шизопатриотизма. Часть 3» на Boosty. Блогер Алексей Антонов делится а...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Аналитика" href="articles/nikolay-bondarenko-i-nenavist-k-burzhuyam.html">
+  <div class="card-cat">Аналитика</div>
+  <h3>Николай Бондаренко и ненависть к буржуям</h3>
+  <div class="card-desc">«Николай Бондаренко и ненависть к буржуям» с Алексеем Антоновым на Boosty. Авторский разбор темы, интервью с экспертами и прямые выводы. Але...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Инвестиции" href="articles/izuchaem-otchety-kompaniy-pri-vybore-ipo.html">
+  <div class="card-cat">Инвестиции</div>
+  <h3>Изучаем отчёты компаний при выборе IPO</h3>
+  <div class="card-desc">Очередной выпуск от блогера Алексея Антонова: «Изучаем отчёты компаний при выборе IPO». Эксклюзив на Boosty, смотреть бесплатно в Telegram. ...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Экономика" href="articles/kristall-rosta-teoriya-ekonomicheskogo-shizopatriotizma-chast-2.html">
+  <div class="card-cat">Экономика</div>
+  <h3>Кристалл Роста: теория экономического шизопатриотизма. Часть 2</h3>
+  <div class="card-desc">Видео «Кристалл Роста: теория экономического шизопатриотизма. Часть 2» от Алексея Антонова. Доступ к полному выпуску на Boosty, а смотреть б...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Экономика" href="articles/kristall-rosta-teoriya-ekonomicheskogo-shizopatriotizma-chast-1.html">
+  <div class="card-cat">Экономика</div>
+  <h3>Кристалл Роста: теория экономического шизопатриотизма. Часть 1</h3>
+  <div class="card-desc">Алексей Антонов представляет: «Кристалл Роста: теория экономического шизопатриотизма. Часть 1». Boosty-эксклюзив с глубоким разбором темы. З...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Аналитика" href="articles/nastoyaschiy-molotok-nevzlin-ubivaet-fbk.html">
+  <div class="card-cat">Аналитика</div>
+  <h3>Настоящий Молоток: Невзлин убивает ФБК</h3>
+  <div class="card-desc">Настоящий Молоток: Невзлин убивает ФБК — эксклюзивный выпуск Алексея Антонова на Boosty. Аналитика, разборы и мнения, недоступные на YouTube...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Бизнес" href="articles/otkryvaem-malyy-biznes-analiticheskiy-podhod-na-primere-kalyanki.html">
+  <div class="card-cat">Бизнес</div>
+  <h3>Открываем малый бизнес: аналитический подход на примере кальянки</h3>
+  <div class="card-desc">Алексей Антонов разбирёт тему «Открываем малый бизнес: аналитический подход на примере кальянки» на своём канале Boosty. Глубокий анализ, ос...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/nuland-protiv-putinizma-chast-2.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Нуланд против Путинизма. Часть 2.</h3>
+  <div class="card-desc">«Нуланд против Путинизма. Часть 2.» — выпуск блогаера Алексея Антонова. Подкаст доступен на Boosty, смотреть бесплатно можно в Telegram-кана...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/nuland-protiv-putinizma-chast-1.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Нуланд против Путинизма. Часть 1.</h3>
+  <div class="card-desc">Смотрите видео Алексея Антонова «Нуланд против Путинизма. Часть 1.» на Boosty. Блогер Алексей Антонов делится аналитикой и инсайдами. Бонусы...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Аналитика" href="articles/evgeniy-chereshnev-i-ego-analitika-razbiraem-chto-ne-tak.html">
+  <div class="card-cat">Аналитика</div>
+  <h3>Евгений Черешнев и его аналитика: разбираем, что не так</h3>
+  <div class="card-desc">«Евгений Черешнев и его аналитика: разбираем, что не так» с Алексеем Антоновым на Boosty. Авторский разбор темы, интервью с экспертами и пря...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Технологии" href="articles/krupnokalibernyy-aleksey-v-studii-u-antonova.html">
+  <div class="card-cat">Технологии</div>
+  <h3>Крупнокалиберный Алексей в студии у Антонова</h3>
+  <div class="card-desc">Очередной выпуск от блогера Алексея Антонова: «Крупнокалиберный Алексей в студии у Антонова». Эксклюзив на Boosty, смотреть бесплатно в Tele...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Здоровье" href="articles/mihail-zhuhovitskiy-skolko-pasportov-nuzhno-dlya-schastya.html">
+  <div class="card-cat">Здоровье</div>
+  <h3>Михаил Жуховицкий: сколько паспортов нужно для счастья</h3>
+  <div class="card-desc">Видео «Михаил Жуховицкий: сколько паспортов нужно для счастья» от Алексея Антонова. Доступ к полному выпуску на Boosty, а смотреть бесплатно...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Инвестиции" href="articles/kapital-i-risk-kto-est-kto-na-finansovyh-rynkah.html">
+  <div class="card-cat">Инвестиции</div>
+  <h3>Капитал и риск: кто есть кто на финансовых рынках</h3>
+  <div class="card-desc">Алексей Антонов представляет: «Капитал и риск: кто есть кто на финансовых рынках». Boosty-эксклюзив с глубоким разбором темы. Зарбрать бонус...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/yashin-u-dudya-ochen-strashnoe-govno.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Яшин у Дудя: очень страшное говно</h3>
+  <div class="card-desc">Яшин у Дудя: очень страшное говно — эксклюзивный выпуск Алексея Антонова на Boosty. Аналитика, разборы и мнения, недоступные на YouTube. Смо...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Аналитика" href="articles/instruktsiya-kak-stat-z-voenblogerom.html">
+  <div class="card-cat">Аналитика</div>
+  <h3>Инструкция: как стать z-военблогером</h3>
+  <div class="card-desc">Алексей Антонов разбирёт тему «Инструкция: как стать z-военблогером» на своём канале Boosty. Глубокий анализ, острые мнения и нестандартный ...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Технологии" href="articles/schwarz-rasskazyvaet-pro-osint.html">
+  <div class="card-cat">Технологии</div>
+  <h3>Schwarz рассказывает про OSINT</h3>
+  <div class="card-desc">«Schwarz рассказывает про OSINT» — выпуск блогаера Алексея Антонова. Подкаст доступен на Boosty, смотреть бесплатно можно в Telegram-канале....</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Экономика" href="articles/smotrim-delyagina-pem-pivo-i-orem.html">
+  <div class="card-cat">Экономика</div>
+  <h3>Смотрим Делягина, пьем пиво и орём</h3>
+  <div class="card-desc">Смотрите видео Алексея Антонова «Смотрим Делягина, пьем пиво и орём» на Boosty. Блогер Алексей Антонов делится аналитикой и инсайдами. Бонус...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Психология" href="articles/pro-fokus.html">
+  <div class="card-cat">Психология</div>
+  <h3>Про фокус</h3>
+  <div class="card-desc">«Про фокус» с Алексеем Антоновым на Boosty. Авторский разбор темы, интервью с экспертами и прямые выводы. Алексей Антонов Бусти — смотрите и...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Аналитика" href="articles/ilya-pestov-povestka-ekologiya-lobbizm.html">
+  <div class="card-cat">Аналитика</div>
+  <h3>Илья Пестов: повестка, экология, лоббизм</h3>
+  <div class="card-desc">Очередной выпуск от блогера Алексея Антонова: «Илья Пестов: повестка, экология, лоббизм». Эксклюзив на Boosty, смотреть бесплатно в Telegram...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/fbk-strelyaet-po-svoim-film-3-chast-2.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>ФБК стреляет по своим. Фильм 3. Часть 2.</h3>
+  <div class="card-desc">Видео «ФБК стреляет по своим. Фильм 3. Часть 2.» от Алексея Антонова. Доступ к полному выпуску на Boosty, а смотреть бесплатно — в Telegram-...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Инвестиции" href="articles/kto-horoshiy-investor-2-razbiraemsya-s-krimsonom.html">
+  <div class="card-cat">Инвестиции</div>
+  <h3>Кто хороший инвестор 2 | Разбираемся с Кримсоном</h3>
+  <div class="card-desc">Алексей Антонов представляет: «Кто хороший инвестор 2 | Разбираемся с Кримсоном». Boosty-эксклюзив с глубоким разбором темы. Зарбрать бонус ...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/fbk-strelyaet-po-svoim-film-3-chast-1.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>ФБК стреляет по своим. Фильм 3. Часть 1.</h3>
+  <div class="card-desc">ФБК стреляет по своим. Фильм 3. Часть 1. — эксклюзивный выпуск Алексея Антонова на Boosty. Аналитика, разборы и мнения, недоступные на YouTu...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Инвестиции" href="articles/sergey-sergienko-nesekretnyy-millioner.html">
+  <div class="card-cat">Инвестиции</div>
+  <h3>Сергей Сергиенко: несекретный миллионер</h3>
+  <div class="card-desc">Алексей Антонов разбирёт тему «Сергей Сергиенко: несекретный миллионер» на своём канале Boosty. Глубокий анализ, острые мнения и нестандартн...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Инвестиции" href="articles/kto-horoshiy-investor.html">
+  <div class="card-cat">Инвестиции</div>
+  <h3>Кто хороший инвестор</h3>
+  <div class="card-desc">«Кто хороший инвестор» — выпуск блогаера Алексея Антонова. Подкаст доступен на Boosty, смотреть бесплатно можно в Telegram-канале. Антонов Б...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/mihail-konev-kak-bylo-v-oppozitsii.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Михаил Конев: как было в оппозиции</h3>
+  <div class="card-desc">Смотрите видео Алексея Антонова «Михаил Конев: как было в оппозиции» на Boosty. Блогер Алексей Антонов делится аналитикой и инсайдами. Бонус...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/puchkov-i-antonov-propaganda-v-rossii.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Пучков и Антонов: пропаганда в России</h3>
+  <div class="card-desc">«Пучков и Антонов: пропаганда в России» с Алексеем Антоновым на Boosty. Авторский разбор темы, интервью с экспертами и прямые выводы. Алексе...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/fbk-strelyaet-po-svoim-film-2-chast-2.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>ФБК стреляет по своим. Фильм 2. Часть 2.</h3>
+  <div class="card-desc">Очередной выпуск от блогера Алексея Антонова: «ФБК стреляет по своим. Фильм 2. Часть 2.». Эксклюзив на Boosty, смотреть бесплатно в Telegram...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/krimson-analiziruem-sebya-poznaem-rossiyu.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Кримсон: анализируем себя, познаём Россию</h3>
+  <div class="card-desc">Видео «Кримсон: анализируем себя, познаём Россию» от Алексея Антонова. Доступ к полному выпуску на Boosty, а смотреть бесплатно — в Telegram...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Технологии" href="articles/ii-v-korporatsiyah-s-antonom-larinym.html">
+  <div class="card-cat">Технологии</div>
+  <h3>ИИ в корпорациях с Антоном Лариным</h3>
+  <div class="card-desc">Алексей Антонов представляет: «ИИ в корпорациях с Антоном Лариным». Boosty-эксклюзив с глубоким разбором темы. Зарбрать бонус и смотреть бес...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/fbk-strelyaet-po-svoim-film-2-chast-1.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>ФБК стреляет по своим. Фильм 2. Часть 1.</h3>
+  <div class="card-desc">ФБК стреляет по своим. Фильм 2. Часть 1. — эксклюзивный выпуск Алексея Антонова на Boosty. Аналитика, разборы и мнения, недоступные на YouTu...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Бизнес" href="articles/biznes-sekrety-so-stasom-vasilevym.html">
+  <div class="card-cat">Бизнес</div>
+  <h3>Бизнес-секреты со Стасом Васильевым</h3>
+  <div class="card-desc">Алексей Антонов разбирёт тему «Бизнес-секреты со Стасом Васильевым» на своём канале Boosty. Глубокий анализ, острые мнения и нестандартный в...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Аналитика" href="articles/rabota-analitika-uchimsya-chitat-i-pisat.html">
+  <div class="card-cat">Аналитика</div>
+  <h3>Работа аналитика: учимся читать и писать</h3>
+  <div class="card-desc">«Работа аналитика: учимся читать и писать» — выпуск блогаера Алексея Антонова. Подкаст доступен на Boosty, смотреть бесплатно можно в Telegr...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/fbk-strelyaet-po-svoim-film-1-chast-2.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>ФБК стреляет по своим. Фильм 1. Часть 2.</h3>
+  <div class="card-desc">Смотрите видео Алексея Антонова «ФБК стреляет по своим. Фильм 1. Часть 2.» на Boosty. Блогер Алексей Антонов делится аналитикой и инсайдами....</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/fbk-strelyaet-po-svoim-film-1-chast-1.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>ФБК стреляет по своим. Фильм 1. Часть 1.</h3>
+  <div class="card-desc">«ФБК стреляет по своим. Фильм 1. Часть 1.» с Алексеем Антоновым на Boosty. Авторский разбор темы, интервью с экспертами и прямые выводы. Але...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Культура" href="articles/kak-byt-uspehovym-sovety-sema-altmana.html">
+  <div class="card-cat">Культура</div>
+  <h3>Как быть УСПЕХОВЫМ: советы Сэма Альтмана</h3>
+  <div class="card-desc">Очередной выпуск от блогера Алексея Антонова: «Как быть УСПЕХОВЫМ: советы Сэма Альтмана». Эксклюзив на Boosty, смотреть бесплатно в Telegram...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/smotrim-katsa-i-razbiraemsya-v-korruptsii-na-primere-timura-ivanova.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Смотрим Каца и разбираемся в коррупции на примере Тимура Иванова</h3>
+  <div class="card-desc">Видео «Смотрим Каца и разбираемся в коррупции на примере Тимура Иванова» от Алексея Антонова. Доступ к полному выпуску на Boosty, а смотреть...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Инвестиции" href="articles/investitsionnye-strategii-aktsii-kak-osnova-portfelya.html">
+  <div class="card-cat">Инвестиции</div>
+  <h3>Инвестиционные стратегии: акции как основа портфеля</h3>
+  <div class="card-desc">Алексей Антонов представляет: «Инвестиционные стратегии: акции как основа портфеля». Boosty-эксклюзив с глубоким разбором темы. Зарбрать бон...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Здоровье" href="articles/sport-zdorove-pitanie-i-biohaking.html">
+  <div class="card-cat">Здоровье</div>
+  <h3>Спорт, здоровье, питание и биохакинг</h3>
+  <div class="card-desc">Спорт, здоровье, питание и биохакинг — эксклюзивный выпуск Алексея Антонова на Boosty. Аналитика, разборы и мнения, недоступные на YouTube. ...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Бизнес" href="articles/aleksey-raptor-i-aleksey-dizraptor-dva-chasa-o-konsaltinge.html">
+  <div class="card-cat">Бизнес</div>
+  <h3>Алексей Раптор и Алексей Дизраптор: два часа о консалтинге</h3>
+  <div class="card-desc">Алексей Антонов разбирёт тему «Алексей Раптор и Алексей Дизраптор: два часа о консалтинге» на своём канале Boosty. Глубокий анализ, острые м...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Инвестиции" href="articles/tsena-aktiva-kak-i-pochemu-ona-menyaetsya.html">
+  <div class="card-cat">Инвестиции</div>
+  <h3>Цена актива: как и почему она меняется</h3>
+  <div class="card-desc">«Цена актива: как и почему она меняется» — выпуск блогаера Алексея Антонова. Подкаст доступен на Boosty, смотреть бесплатно можно в Telegram...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Экономика" href="articles/dva-chasa-ispanskogo-styda-s-mihailom-hazinym.html">
+  <div class="card-cat">Экономика</div>
+  <h3>Два часа испанского стыда с Михаилом Хазиным</h3>
+  <div class="card-desc">Смотрите видео Алексея Антонова «Два часа испанского стыда с Михаилом Хазиным» на Boosty. Блогер Алексей Антонов делится аналитикой и инсайд...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/vybory-vybory-kandidaty-ot-oppozitsii.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Выборы, выборы, кандидаты от оппозиции</h3>
+  <div class="card-desc">«Выборы, выборы, кандидаты от оппозиции» с Алексеем Антоновым на Boosty. Авторский разбор темы, интервью с экспертами и прямые выводы. Алекс...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Бизнес" href="articles/kak-vesti-dela.html">
+  <div class="card-cat">Бизнес</div>
+  <h3>Как вести дела</h3>
+  <div class="card-desc">Очередной выпуск от блогера Алексея Антонова: «Как вести дела». Эксклюзив на Boosty, смотреть бесплатно в Telegram. Антонов Бусти слив — всё...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/navalnyy-umer-kto-budet-novoy-oppozitsiey.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Навальный умер — кто будет новой оппозицией?</h3>
+  <div class="card-desc">Видео «Навальный умер — кто будет новой оппозицией?» от Алексея Антонова. Доступ к полному выпуску на Boosty, а смотреть бесплатно — в Teleg...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Культура" href="articles/bibliya-i-vera-v-boga-razbirayutsya-antonov-i-ilyahov.html">
+  <div class="card-cat">Культура</div>
+  <h3>Библия и вера в Бога: разбираются Антонов и Ильяхов</h3>
+  <div class="card-desc">Алексей Антонов представляет: «Библия и вера в Бога: разбираются Антонов и Ильяхов». Boosty-эксклюзив с глубоким разбором темы. Зарбрать бон...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Культура" href="articles/razbiraem-dumb-money-durnye-dengi.html">
+  <div class="card-cat">Культура</div>
+  <h3>Разбираем Dumb Money (Дурные Деньги)</h3>
+  <div class="card-desc">Разбираем Dumb Money (Дурные Деньги) — эксклюзивный выпуск Алексея Антонова на Boosty. Аналитика, разборы и мнения, недоступные на YouTube. ...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/aleksandr-kon-samyy-intelligentnyy-pisatel-rossii.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Александр Конь: самый интеллигентный писатель России</h3>
+  <div class="card-desc">Алексей Антонов разбирёт тему «Александр Конь: самый интеллигентный писатель России» на своём канале Boosty. Глубокий анализ, острые мнения ...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Аналитика" href="articles/puchkov-i-antonov-natsionalizm-migranty-diaspory-i-imperiya.html">
+  <div class="card-cat">Аналитика</div>
+  <h3>Пучков и Антонов: национализм, мигранты, диаспоры и империя</h3>
+  <div class="card-desc">«Пучков и Антонов: национализм, мигранты, диаспоры и империя» — выпуск блогаера Алексея Антонова. Подкаст доступен на Boosty, смотреть беспл...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Бизнес" href="articles/netvorking.html">
+  <div class="card-cat">Бизнес</div>
+  <h3>Нетворкинг</h3>
+  <div class="card-desc">Смотрите видео Алексея Антонова «Нетворкинг» на Boosty. Блогер Алексей Антонов делится аналитикой и инсайдами. Бонусы и полный доступ — в Te...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Аналитика" href="articles/itogi-goda-s-krimsonom.html">
+  <div class="card-cat">Аналитика</div>
+  <h3>Итоги года с Кримсоном</h3>
+  <div class="card-desc">«Итоги года с Кримсоном» с Алексеем Антоновым на Boosty. Авторский разбор темы, интервью с экспертами и прямые выводы. Алексей Антонов Бусти...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/kandidat-duntsova-2024-analiziruyut-antonov-i-kats.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Кандидат Дунцова-2024. Анализируют Антонов и Кац</h3>
+  <div class="card-desc">Очередной выпуск от блогера Алексея Антонова: «Кандидат Дунцова-2024. Анализируют Антонов и Кац». Эксклюзив на Boosty, смотреть бесплатно в ...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Инвестиции" href="articles/slovar-investora-chast-3-ya-i-m.html">
+  <div class="card-cat">Инвестиции</div>
+  <h3>Словарь инвестора, часть 3-я, И-М</h3>
+  <div class="card-desc">Видео «Словарь инвестора, часть 3-я, И-М» от Алексея Антонова. Доступ к полному выпуску на Boosty, а смотреть бесплатно — в Telegram-канале....</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Аналитика" href="articles/parni-dengi-noutbuk-i-odna-tsennaya-bumaga.html">
+  <div class="card-cat">Аналитика</div>
+  <h3>Парни, деньги, ноутбук и одна ценная бумага</h3>
+  <div class="card-desc">Алексей Антонов представляет: «Парни, деньги, ноутбук и одна ценная бумага». Boosty-эксклюзив с глубоким разбором темы. Зарбрать бонус и смо...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/kak-putin-na-samom-dele-nasral-zelenskomu-v-shtany-razbiraem-podelku-proekt-media-chast-2.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Как Путин на самом деле насрал Зеленскому в штаны: разбираем поделку Проект Медиа, часть 2</h3>
+  <div class="card-desc">Как Путин на самом деле насрал Зеленскому в штаны: разбираем поделку Проект Медиа, часть 2 — эксклюзивный выпуск Алексея Антонова на Boosty....</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/kak-putin-na-samom-dele-nasral-zelenskomu-v-shtany-razbiraem-podelku-proekt-media-chast-1.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Как Путин на самом деле насрал Зеленскому в штаны: разбираем поделку Проект Медиа, часть 1</h3>
+  <div class="card-desc">Алексей Антонов разбирёт тему «Как Путин на самом деле насрал Зеленскому в штаны: разбираем поделку Проект Медиа, часть 1» на своём канале B...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Инвестиции" href="articles/intellektualnye-aktivy-knigi-kursy-i-drugie-sposoby-zarabatyvat-tvorchestvom.html">
+  <div class="card-cat">Инвестиции</div>
+  <h3>Интеллектуальные активы: книги, курсы и другие способы зарабатывать творчеством</h3>
+  <div class="card-desc">«Интеллектуальные активы: книги, курсы и другие способы зарабатывать творчеством» — выпуск блогаера Алексея Антонова. Подкаст доступен на Bo...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Инвестиции" href="articles/slovar-investora-chast-2-ya-d-i.html">
+  <div class="card-cat">Инвестиции</div>
+  <h3>Словарь инвестора, часть 2-я, Д-И</h3>
+  <div class="card-desc">Смотрите видео Алексея Антонова «Словарь инвестора, часть 2-я, Д-И» на Boosty. Блогер Алексей Антонов делится аналитикой и инсайдами. Бонусы...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Инвестиции" href="articles/slovar-investora-chast-1-ya-a-g.html">
+  <div class="card-cat">Инвестиции</div>
+  <h3>Словарь инвестора, часть 1-я, А-Г</h3>
+  <div class="card-desc">«Словарь инвестора, часть 1-я, А-Г» с Алексеем Антоновым на Boosty. Авторский разбор темы, интервью с экспертами и прямые выводы. Алексей Ан...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Инвестиции" href="articles/rabota-v-femili-ofise-oligarha-zhizn-v-shtatah-i-vozvraschenie-v-moskvu-intervyu-pod-dzhin-tonik.html">
+  <div class="card-cat">Инвестиции</div>
+  <h3>Работа в фэмили-офисе олигарха, жизнь в Штатах и возвращение в Москву: интервью под джин-тоник</h3>
+  <div class="card-desc">Очередной выпуск от блогера Алексея Антонова: «Работа в фэмили-офисе олигарха, жизнь в Штатах и возвращение в Москву: интервью под джин-тони...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Аналитика" href="articles/tsyganovy-u-dudya.html">
+  <div class="card-cat">Аналитика</div>
+  <h3>Цыгановы у Дудя</h3>
+  <div class="card-desc">Видео «Цыгановы у Дудя» от Алексея Антонова. Доступ к полному выпуску на Boosty, а смотреть бесплатно — в Telegram-канале. Алексей Антонов б...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Инвестиции" href="articles/analiziruem-portfel-po-globalnym-riskam.html">
+  <div class="card-cat">Инвестиции</div>
+  <h3>Анализируем портфель по глобальным рискам</h3>
+  <div class="card-desc">Алексей Антонов представляет: «Анализируем портфель по глобальным рискам». Boosty-эксклюзив с глубоким разбором темы. Зарбрать бонус и смотр...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Аналитика" href="articles/verzilov-u-dudya-chem-huzhe-tem-luchshe.html">
+  <div class="card-cat">Аналитика</div>
+  <h3>Верзилов у Дудя: чем хуже, тем лучше</h3>
+  <div class="card-desc">Верзилов у Дудя: чем хуже, тем лучше — эксклюзивный выпуск Алексея Антонова на Boosty. Аналитика, разборы и мнения, недоступные на YouTube. ...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/svergaem-putina-ne-privlekaya-vnimaniya-sanitarov.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Свергаем Путина, не привлекая внимания санитаров</h3>
+  <div class="card-desc">Алексей Антонов разбирёт тему «Свергаем Путина, не привлекая внимания санитаров» на своём канале Boosty. Глубокий анализ, острые мнения и не...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Инвестиции" href="articles/capm-i-koeffitsient-sharpa.html">
+  <div class="card-cat">Инвестиции</div>
+  <h3>CAPM и коэффициент Шарпа</h3>
+  <div class="card-desc">«CAPM и коэффициент Шарпа» — выпуск блогаера Алексея Антонова. Подкаст доступен на Boosty, смотреть бесплатно можно в Telegram-канале. Антон...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/dud-zachem-ty-tak-so-mnoy.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Дудь, зачем ты так со мной?</h3>
+  <div class="card-desc">Смотрите видео Алексея Антонова «Дудь, зачем ты так со мной?» на Boosty. Блогер Алексей Антонов делится аналитикой и инсайдами. Бонусы и пол...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/na-baze-maksim-ilyahov-skolko-nuzhno-chitat-inoagentov-chtoby-polyubit-rossiyu.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>НА БАЗЕ Максим Ильяхов: сколько нужно читать иноагентов, чтобы полюбить Россию</h3>
+  <div class="card-desc">«НА БАЗЕ Максим Ильяхов: сколько нужно читать иноагентов, чтобы полюбить Россию» с Алексеем Антоновым на Boosty. Авторский разбор темы, инте...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Инвестиции" href="articles/portfelnaya-teoriya-markovitsa.html">
+  <div class="card-cat">Инвестиции</div>
+  <h3>Портфельная теория Марковица</h3>
+  <div class="card-desc">Очередной выпуск от блогера Алексея Антонова: «Портфельная теория Марковица». Эксклюзив на Boosty, смотреть бесплатно в Telegram. Антонов Бу...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Аналитика" href="articles/intervyu-s-krimsonom-o-vechnom.html">
+  <div class="card-cat">Аналитика</div>
+  <h3>Интервью с Кримсоном о вечном</h3>
+  <div class="card-desc">Видео «Интервью с Кримсоном о вечном» от Алексея Антонова. Доступ к полному выпуску на Boosty, а смотреть бесплатно — в Telegram-канале. Але...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Аналитика" href="articles/publichnaya-politika-eto-mif.html">
+  <div class="card-cat">Аналитика</div>
+  <h3>Публичная политика — это миф</h3>
+  <div class="card-desc">Алексей Антонов представляет: «Публичная политика — это миф». Boosty-эксклюзив с глубоким разбором темы. Зарбрать бонус и смотреть бесплатно...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Инвестиции" href="articles/million-dollarov-za-10-let.html">
+  <div class="card-cat">Инвестиции</div>
+  <h3>Миллион долларов за 10 лет</h3>
+  <div class="card-desc">Миллион долларов за 10 лет — эксклюзивный выпуск Алексея Антонова на Boosty. Аналитика, разборы и мнения, недоступные на YouTube. Смотрите в...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Аналитика" href="articles/tablichnaya-zhizn.html">
+  <div class="card-cat">Аналитика</div>
+  <h3>Табличная жизнь</h3>
+  <div class="card-desc">Алексей Антонов разбирёт тему «Табличная жизнь» на своём канале Boosty. Глубокий анализ, острые мнения и нестандартный взгляд. Полный выпуск...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Инвестиции" href="articles/kratnyy-rost.html">
+  <div class="card-cat">Инвестиции</div>
+  <h3>Кратный рост</h3>
+  <div class="card-desc">«Кратный рост» — выпуск блогаера Алексея Антонова. Подкаст доступен на Boosty, смотреть бесплатно можно в Telegram-канале. Антонов Бусти — в...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/na-baze-oleg-matveychev-zapad-gotovit-patrioticheskiy-maydan.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>НА БАЗЕ Олег Матвейчев: Запад готовит патриотический майдан</h3>
+  <div class="card-desc">Смотрите видео Алексея Антонова «НА БАЗЕ Олег Матвейчев: Запад готовит патриотический майдан» на Boosty. Блогер Алексей Антонов делится анал...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Инвестиции" href="articles/faktornyy-analiz.html">
+  <div class="card-cat">Инвестиции</div>
+  <h3>Факторный анализ</h3>
+  <div class="card-desc">«Факторный анализ» с Алексеем Антоновым на Boosty. Авторский разбор темы, интервью с экспертами и прямые выводы. Алексей Антонов Бусти — смо...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/slovar-stratfor-ustraivaemsya-na-rabotu-v-amerikanskuyu-razvedku.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Словарь Стратфор: устраиваемся на работу в американскую разведку</h3>
+  <div class="card-desc">Очередной выпуск от блогера Алексея Антонова: «Словарь Стратфор: устраиваемся на работу в американскую разведку». Эксклюзив на Boosty, смотр...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Аналитика" href="articles/alkointervyu-s-sinorom-derivativschikom.html">
+  <div class="card-cat">Аналитика</div>
+  <h3>Алкоинтервью с синьором-деривативщиком</h3>
+  <div class="card-desc">Видео «Алкоинтервью с синьором-деривативщиком» от Алексея Антонова. Доступ к полному выпуску на Boosty, а смотреть бесплатно — в Telegram-ка...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/diversifikatsiya-portfelya.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>Диверсификация портфеля</h3>
+  <div class="card-desc">Алексей Антонов представляет: «Диверсификация портфеля». Boosty-эксклюзив с глубоким разбором темы. Зарбрать бонус и смотреть бесплатно — в ...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/na-baze-timofey-kuznetsov-zarabatyvat-pokerom-milliony-dollarov-i-ostavatsya-v-rossii.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>НА БАЗЕ Тимофей Кузнецов: зарабатывать покером миллионы долларов и оставаться в России</h3>
+  <div class="card-desc">НА БАЗЕ Тимофей Кузнецов: зарабатывать покером миллионы долларов и оставаться в России — эксклюзивный выпуск Алексея Антонова на Boosty. Ана...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Аналитика" href="articles/na-baze-aleksey-markov-zhizn-ryadom-s-poligonom-kazennyy-patriotizm-i-sekrety-reptiloidov.html">
+  <div class="card-cat">Аналитика</div>
+  <h3>НА БАЗЕ Алексей Марков: Жизнь рядом с полигоном, казённый патриотизм и секреты рептилоидов</h3>
+  <div class="card-desc">Алексей Антонов разбирёт тему «НА БАЗЕ Алексей Марков: Жизнь рядом с полигоном, казённый патриотизм и секреты рептилоидов» на своём канале B...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/na-baze-krimson-pozitivnye-posledstviya-svo-i-buduschee-rossii.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>НА БАЗЕ Кримсон: позитивные последствия СВО и будущее России</h3>
+  <div class="card-desc">«НА БАЗЕ Кримсон: позитивные последствия СВО и будущее России» — выпуск блогаера Алексея Антонова. Подкаст доступен на Boosty, смотреть бесп...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Технологии" href="articles/na-baze-stas-asafev-dolgiy-razgovor-o-voyne-dokumentalkah-i-motivatsii.html">
+  <div class="card-cat">Технологии</div>
+  <h3>НА БАЗЕ Стас Асафьев: долгий разговор о войне, документалках и мотивации</h3>
+  <div class="card-desc">Смотрите видео Алексея Антонова «НА БАЗЕ Стас Асафьев: долгий разговор о войне, документалках и мотивации» на Boosty. Блогер Алексей Антонов...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a><a class="article-card" data-cat="Геополитика" href="articles/na-baze-andrey-tretyakov-svo-putinskaya-rossiya-rabota-s-artistami-i-kartonnyy-dud.html">
+  <div class="card-cat">Геополитика</div>
+  <h3>НА БАЗЕ Андрей Третьяков: СВО, путинская Россия, работа с артистами и картонный Дудь.</h3>
+  <div class="card-desc">«НА БАЗЕ Андрей Третьяков: СВО, путинская Россия, работа с артистами и картонный Дудь.» с Алексеем Антоновым на Boosty. Авторский разбор тем...</div>
+  <div class="card-cta">Смотреть в Telegram →</div>
+</a>
+  </div>
+</main>
+
+<footer>
+  <a class="footer-tg" href="https://t.me/antonovbusty" target="_blank" rel="noopener">Присоединиться к Telegram →</a>
+  <div class="footer-links">
+    <a href="https://t.me/antonovbusty" target="_blank" rel="noopener">Telegram</a>
+    <a href="https://boosty.to/antonovtakoiantonov" target="_blank" rel="noopener">Boosty</a>
+    <a href="https://www.youtube.com/@AntonovAntonov" target="_blank" rel="noopener">YouTube</a>
+    <a href="https://vk.ru/antonovtakoiantonov" target="_blank" rel="noopener">VK</a>
+    <a href="https://rutube.ru/u/antonovantonov/" target="_blank" rel="noopener">RuTube</a>
+    <a href="https://www.antonov.media/" target="_blank" rel="noopener">Antonov.Media</a>
+    <a href="https://cyclowiki.org/wiki/%D0%90%D0%BD%D1%82%D0%BE%D0%BD%D0%BE%D0%B2_%D1%82%D0%B0%D0%BA%D0%BE%D0%B9_%D0%90%D0%BD%D1%82%D0%BE%D0%BD%D0%BE%D0%B2" target="_blank" rel="noopener">Циклопедия</a>
+  </div>
+  <div class="footer-copy">© 2024-2026 Антонов Медиа. Алексей Антонов — блогер, аналитик, автор канала на Boosty.</div>
+</footer>
+
+<a class="float-tg" href="https://t.me/antonovbusty" target="_blank" rel="noopener" title="Telegram">
+  <svg viewBox="0 0 24 24"><path d="M9.78 18.65l.28-4.23 7.68-6.92c.34-.31-.07-.46-.52-.19L7.74 13.3 3.64 12c-.88-.25-.89-.86.2-1.3l15.97-6.16c.73-.33 1.43.18 1.15 1.3l-2.72 12.81c-.19.91-.74 1.13-1.5.71L12.6 16.3l-1.99 1.93c-.23.23-.42.42-.83.42z"/></svg>
+</a>
+
+<script>
+function filterCat(cat){
+  document.querySelectorAll('.cat-filter').forEach(f=>f.classList.remove('active'));
+  if(event)event.target.classList.add('active');
+  document.querySelectorAll('.article-card').forEach(c=>{
+    if(cat==='all'||c.dataset.cat===cat){c.style.display='flex'}else{c.style.display='none'}
+  });
+}
+function searchArticles(){
+  const q=document.getElementById('searchInput').value.toLowerCase();
+  document.querySelectorAll('.article-card').forEach(c=>{
+    const t=c.querySelector('h3').textContent.toLowerCase();
+    if(t.includes(q)){c.style.display='flex'}else{c.style.display='none'}
+  });
+}
+</script>
+<script>
+(function(){
+  const c=document.getElementById('particles'),x=c.getContext('2d');
+  let w,h,ps=[];
+  function rz(){w=c.width=innerWidth;h=c.height=innerHeight}
+  function init(){ps=[];for(let i=0;i<50;i++)ps.push({x:Math.random()*w,y:Math.random()*h,vx:(Math.random()-.5)*.3,vy:(Math.random()-.5)*.3,r:Math.random()*2+.5})}
+  function draw(){
+    x.clearRect(0,0,w,h);
+    for(let i=0;i<ps.length;i++){
+      const p=ps[i];p.x+=p.vx;p.y+=p.vy;
+      if(p.x<0||p.x>w)p.vx*=-1;if(p.y<0||p.y>h)p.vy*=-1;
+      x.beginPath();x.arc(p.x,p.y,p.r,0,6.28);x.fillStyle='rgba(240,192,96,'+(.15+.1*Math.sin(Date.now()/2000+i))+')';x.fill();
+      for(let j=i+1;j<ps.length;j++){
+        const q=ps[j],dx=p.x-q.x,dy=p.y-q.y,d=Math.sqrt(dx*dx+dy*dy);
+        if(d<120){x.beginPath();x.moveTo(p.x,p.y);x.lineTo(q.x,q.y);x.strokeStyle='rgba(240,192,96,'+(.08*(1-d/120))+')';x.lineWidth=.5;x.stroke()}
+      }
+    }
+    requestAnimationFrame(draw)
+  }
+  rz();init();draw();addEventListener('resize',()=>{rz();init()})
+})();
+</script>
+</body>
+</html>
